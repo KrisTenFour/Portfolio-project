@@ -6,7 +6,6 @@
 body {
     background: #FAF4D3;
     text-align: center;
-    font-family: 'Inter', sans-serif;
 }
 
 .container-fluid {
@@ -24,17 +23,18 @@ body {
 .profile h1 {
     font-size: 96px;
     font-weight: bold;
+    font-family: 'Bitter', serif;
 }
 
 .profile h2 {
-    font-size: 54px;
+    font-size: 50px;
     font-weight: bold;
-    line-height: 1.5;
+    font-family: 'Bitter', serif;
 }
 
 .profile h3 {
-    font-size: 36px;
-    line-height: 1.5;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
 }
 
 .button-started {
