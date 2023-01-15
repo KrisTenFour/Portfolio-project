@@ -18,27 +18,30 @@
     text-align: center;
 }
 
-.profile h1 {
+h1 {
     font-size: 96px;
     font-weight: bold;
     font-family: 'Bitter', serif;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 46px;
     font-weight: bold;
     font-family: 'Bitter', serif;
 }
 
-.profile h3 {
+h3 {
     font-size: 30px;
     font-family: 'Inter', sans-serif;
 }
 
-.button-started {
-    margin-top: 30px;
+.btn {
     padding: 18px 46px;
     font-size: 18px;
+}
+
+.button-started {
+    margin-top: 30px;
     background: var(--primary-color);
     border-color: var(--primary-color);
 }
@@ -46,6 +49,11 @@ h2 {
 .button-started:hover {
     background: var(--secondary-color);
     border-color: var(--secondary-color);
+}
+
+.mid-banner {
+    margin-bottom: 50px;
+    background-color: rgba(247, 246, 246, 0.459);
 }
 
 .project-description {
@@ -57,6 +65,10 @@ h2 {
     line-height: 30px;
 }
 
+p {
+    font-size: 20px;
+}
+
 img {
     display: block;
     margin: auto;
@@ -66,7 +78,6 @@ img {
 }
 
 .button-project {
-    padding: 18px 46px;
     color: var(--primary-color);
     border: 0.2mm solid var(--primary-color);
 }
@@ -74,4 +85,66 @@ img {
 .button-project:hover {
     background: var(--secondary-color);
     border: 0.2mm solid var(--secondary-color);
+}
+
+@media (max-width: 991px) {
+    .container {
+        text-align: center;
+    }
+
+    .project-description {
+        margin: 0;
+        padding: 18px;
+    }
+}
+
+@media (max-width: 791px) {
+    .profile {
+        padding: 120px 25px;
+    }
+
+    h1 {
+        font-size: 58px;
+    }
+
+    h2 {
+        font-size: 38px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 12px 30px;
+    }
+
+    .mid-banner {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 516px) {
+    .profile {
+        padding-bottom: 80px;
+    }
+
+    .mid-banner {
+        font-size: 18px;
+        background-color: transparent;
+    }
+
+    .project-description {
+        margin: 0;
+        padding: 10px;
+    }
+
+    .mid-banner {
+        margin-bottom: 15px;
+    }
+
+    .project-description h2 {
+        line-height: 0.75;
+    }
 }
