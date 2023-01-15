@@ -1,11 +1,7 @@
 :root {
     --primary-color: #004643;
     --secondary-color: #D1AC00;
-}
-
-body {
-    background: #FAF4D3;
-    text-align: center;
+    --tertiary-color: #FAF4D3
 }
 
 .container-fluid {
@@ -17,7 +13,9 @@ body {
 }
 
 .profile {
-    padding-top: 190px;
+    padding: 170px 25px;
+    background: var(--tertiary-color);
+    text-align: center;
 }
 
 .profile h1 {
@@ -26,7 +24,7 @@ body {
     font-family: 'Bitter', serif;
 }
 
-.profile h2 {
+h2 {
     font-size: 50px;
     font-weight: bold;
     font-family: 'Bitter', serif;
@@ -48,4 +46,32 @@ body {
 .button-started:hover {
     background: var(--secondary-color);
     border-color: var(--secondary-color);
+}
+
+.project-description {
+    padding: 50px 20px;
+}
+
+.project-description p {
+    margin: 30px auto;
+    line-height: 30px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    border: 2mm solid var(--tertiary-color);
+    border-radius: 4mm;
+}
+
+.button-project {
+    padding: 18px 46px;
+    color: var(--primary-color);
+    border: 0.2mm solid var(--primary-color);
+}
+
+.button-project:hover {
+    background: var(--secondary-color);
+    border: 0.2mm solid var(--secondary-color);
 }
