@@ -18,16 +18,17 @@
     text-align: center;
 }
 
-h1 {
-    font-size: 96px;
+h1, h2 {
     font-weight: bold;
     font-family: 'Bitter', serif;
+} 
+
+h1 {
+    font-size: 96px;
 }
 
 h2 {
     font-size: 46px;
-    font-weight: bold;
-    font-family: 'Bitter', serif;
 }
 
 h3 {
@@ -40,20 +41,29 @@ h3 {
     font-size: 18px;
 }
 
-.button-started {
+.btn-started {
     margin-top: 30px;
     background: var(--primary-color);
     border-color: var(--primary-color);
 }
 
-.button-started:hover {
+.btn-started:hover {
     background: var(--secondary-color);
     border-color: var(--secondary-color);
 }
 
 .mid-banner {
     margin-bottom: 50px;
-    background-color: rgba(247, 246, 246, 0.459);
+    background-color: #f7f6f675;
+    font-size: 18px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    border: 2mm solid var(--tertiary-color);
+    border-radius: 4mm;
 }
 
 .project-description {
@@ -69,20 +79,12 @@ p {
     font-size: 20px;
 }
 
-img {
-    display: block;
-    margin: auto;
-    width: 100%;
-    border: 2mm solid var(--tertiary-color);
-    border-radius: 4mm;
-}
-
-.button-project {
+.btn-project {
     color: var(--primary-color);
     border: 0.2mm solid var(--primary-color);
 }
 
-.button-project:hover {
+.btn-project:hover {
     background: var(--secondary-color);
     border: 0.2mm solid var(--secondary-color);
 }
@@ -116,8 +118,8 @@ img {
     }
 
     .btn {
-        font-size: 16px;
         padding: 12px 30px;
+        font-size: 16px;
     }
 
     .mid-banner {
@@ -130,21 +132,34 @@ img {
         padding-bottom: 80px;
     }
 
-    .mid-banner {
+    h1 { 
+        font-size: 56px;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    h3 {
         font-size: 18px;
+    }
+
+    .mid-banner {
+        margin-bottom: 15px;
         background-color: transparent;
+        font-size: 16px;
     }
 
     .project-description {
         margin: 0;
         padding: 10px;
     }
-
-    .mid-banner {
-        margin-bottom: 15px;
-    }
-
+    
     .project-description h2 {
         line-height: 0.75;
+    }
+
+    p {
+        font-size: 18px;
     }
 }
