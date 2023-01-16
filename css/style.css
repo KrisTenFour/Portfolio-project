@@ -89,7 +89,7 @@ p {
 }
 
 .about-section {
-    margin: 130px auto 40px;
+    margin: 110px auto 40px;
 }
 
 .about-text {
@@ -129,6 +129,18 @@ p {
     .project-description {
         margin: 0;
         padding: 18px;
+    }
+
+    .about-section {
+        max-width: 85%;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .about-text p {
+        text-align: center;
     }
 }
 
