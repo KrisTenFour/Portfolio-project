@@ -89,22 +89,17 @@ p {
 }
 
 .about-section {
-    margin: 110px auto 40px;
-}
-
-.about-text {
-    padding: 10px 25px 15px;
-    border: 5mm solid var(--tertiary-color);
-    border-radius: 4mm;
+    margin: 125px auto 40px;
 }
 
 .about-text p {
-    margin: 20px auto 0;
+    margin: 25px auto 0;
     text-align: justify;
 }
 
 .about-section h1 {
     font-size: 55px;
+    line-height: 1.25;
 }
 
 .about-section h3 {
@@ -112,9 +107,13 @@ p {
 }
 
 .about-section ul {
-    margin: 10px auto 20px;
+    margin: 15px auto 25px;
     font-size: 18px;
     line-height: 1.5;
+}
+
+.about-section li {
+    margin: 5px auto;
 }
 
 .about-section .btn {
@@ -133,14 +132,15 @@ p {
 
     .about-section {
         max-width: 85%;
+        margin: 100px auto;
     }
 
-    .about-text {
-        text-align: center;
+    .about-section .btn {
+        margin: 0 auto 40px;
     }
 
-    .about-text p {
-        text-align: center;
+    .about-section img {
+        max-width: 400px;
     }
 }
 
@@ -169,6 +169,14 @@ p {
     .mid-banner {
         margin-bottom: 25px;
     }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .about-text p {
+        text-align: center;
+    }
 }
 
 @media (max-width: 516px) {
@@ -183,8 +191,12 @@ p {
     h2 {
         font-size: 34px;
     }
-
+    
     h3 {
+        font-size: 18px;
+    }
+    
+    p {
         font-size: 18px;
     }
 
@@ -202,8 +214,8 @@ p {
     .project-description h2 {
         line-height: 0.75;
     }
-
-    p {
-        font-size: 18px;
+      
+    .about-section h1 {
+        font-size: 46px;
     }
 }
