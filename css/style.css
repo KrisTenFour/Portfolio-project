@@ -124,15 +124,15 @@ p {
     .homepage-container {
         text-align: center;
     }
+    
+    .homepage-container, .about-section {
+        max-width: 65%;
+        margin: 100px auto;
+    }
 
     .project-description {
         margin: 0;
         padding: 18px;
-    }
-
-    .about-section {
-        max-width: 85%;
-        margin: 100px auto;
     }
 
     .about-section .btn {
@@ -161,6 +161,14 @@ p {
         font-size: 22px;
     }
 
+    .homepage-container {
+        margin: 0 auto;
+    }
+
+    .about-section {
+        max-width: 85%;
+    }
+
     .btn {
         padding: 12px 30px;
         font-size: 16px;
@@ -169,25 +177,17 @@ p {
     .mid-banner {
         margin-bottom: 25px;
     }
-
-    .about-text {
-        text-align: center;
-    }
-
-    .about-text p {
-        text-align: center;
-    }
 }
 
 @media (max-width: 516px) {
     .profile {
         padding-bottom: 80px;
     }
-
+    
     h1 { 
         font-size: 56px;
     }
-
+    
     h2 {
         font-size: 34px;
     }
@@ -199,13 +199,13 @@ p {
     p {
         font-size: 18px;
     }
-
+    
     .mid-banner {
         margin-bottom: 15px;
         background-color: transparent;
         font-size: 16px;
     }
-
+    
     .project-description {
         margin: 0;
         padding: 10px;
@@ -214,8 +214,16 @@ p {
     .project-description h2 {
         line-height: 0.75;
     }
-      
+    
     .about-section h1 {
         font-size: 46px;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .about-text p {
+        text-align: center;
     }
 }
