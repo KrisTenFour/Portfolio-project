@@ -12,16 +12,6 @@
     margin: 0 15px;
 }
 
-.about-section {
-    margin: 130px auto 40px;
-}
-
-.about-text {
-    padding: 10px 25px 15px;
-    border: 5mm solid var(--tertiary-color);
-    border-radius: 4mm;
-}
-
 .profile {
     padding: 170px 25px;
     background: var(--tertiary-color);
@@ -37,10 +27,6 @@ h1 {
     font-size: 96px;
 }
 
-.about-section h1 {
-    font-size: 55px;
-}
-
 h2 {
     font-size: 46px;
 }
@@ -48,10 +34,6 @@ h2 {
 h3 {
     font-size: 30px;
     font-family: 'Inter', sans-serif;
-}
-
-.about-section h3 {
-    font-size: 18px;
 }
 
 .btn {
@@ -77,7 +59,6 @@ h3 {
 }
 
 img {
-    display: block;
     width: 100%;
     margin: auto;
     border: 2mm solid var(--tertiary-color);
@@ -97,17 +78,6 @@ p {
     font-size: 18px;
 }
 
-.about-text p {
-    margin: 20px auto 0;
-    text-align: justify;
-}
-
-.about-section ul {
-    margin: 10px auto 20px;
-    font-size: 18px;
-    line-height: 1.5;
-}
-
 .btn-second {
     color: var(--primary-color);
     border: 0.2mm solid var(--primary-color);
@@ -118,12 +88,41 @@ p {
     border: 0.2mm solid var(--secondary-color);
 }
 
+.about-section {
+    margin: 130px auto 40px;
+}
+
+.about-text {
+    padding: 10px 25px 15px;
+    border: 5mm solid var(--tertiary-color);
+    border-radius: 4mm;
+}
+
+.about-text p {
+    margin: 20px auto 0;
+    text-align: justify;
+}
+
+.about-section h1 {
+    font-size: 55px;
+}
+
+.about-section h3 {
+    font-size: 18px;
+}
+
+.about-section ul {
+    margin: 10px auto 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
 .about-section .btn {
     margin: 0;
 }
 
 @media (max-width: 991px) {
-    .container {
+    .homepage-container {
         text-align: center;
     }
 
