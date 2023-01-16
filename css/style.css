@@ -4,12 +4,22 @@
     --tertiary-color: #FAF4D3;
 }
 
-.container-fluid {
+.container-fluid, .about-section {
     max-width: 1100px;
 }
 
 .nav-object {
     margin: 0 15px;
+}
+
+.about-section {
+    margin: 130px auto 40px;
+}
+
+.about-text {
+    padding: 10px 25px 15px;
+    border: 5mm solid var(--tertiary-color);
+    border-radius: 4mm;
 }
 
 .profile {
@@ -27,6 +37,10 @@ h1 {
     font-size: 96px;
 }
 
+.about-section h1 {
+    font-size: 55px;
+}
+
 h2 {
     font-size: 46px;
 }
@@ -36,18 +50,22 @@ h3 {
     font-family: 'Inter', sans-serif;
 }
 
-.btn {
-    padding: 18px 46px;
+.about-section h3 {
     font-size: 18px;
 }
 
-.btn-started {
+.btn {
+    padding: 14px 42px;
+    font-size: 16px;
+}
+
+.btn-first {
     margin-top: 30px;
     background: var(--primary-color);
     border-color: var(--primary-color);
 }
 
-.btn-started:hover {
+.btn-first:hover {
     background: var(--secondary-color);
     border-color: var(--secondary-color);
 }
@@ -71,22 +89,37 @@ img {
 }
 
 .project-description p {
-    margin: 30px auto;
+    margin: 20px auto 30px;
     line-height: 30px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
-.btn-project {
+.about-text p {
+    margin: 20px auto 0;
+    text-align: justify;
+}
+
+.about-section ul {
+    margin: 10px auto 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.btn-second {
     color: var(--primary-color);
     border: 0.2mm solid var(--primary-color);
 }
 
-.btn-project:hover {
+.btn-second:hover {
     background: var(--secondary-color);
     border: 0.2mm solid var(--secondary-color);
+}
+
+.about-section .btn {
+    margin: 0;
 }
 
 @media (max-width: 991px) {
