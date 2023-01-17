@@ -31,6 +31,7 @@ img {
 
 p {
     font-size: 18px;
+    font-family: 'Inter', sans-serif;
 }
 
 .container {
@@ -47,7 +48,7 @@ p {
 }
 
 .content {
-    margin: 55px auto;
+    margin: 55px auto 0;
 }
 
 .content h1 {
@@ -70,7 +71,6 @@ p {
 }
 
 .content p {
-    margin: 25px auto 0;
     text-align: justify;
 }
 
@@ -111,6 +111,10 @@ p {
     font-size: 18px;
 }
 
+.project {
+    margin-bottom: 15px;
+}
+
 .project-description {
     padding: 50px;
 }
@@ -127,7 +131,6 @@ p {
     
     .container, .content-container {
         max-width: 65%;
-        margin: 100px auto;
     }
 
     .project-description {
@@ -135,22 +138,22 @@ p {
         padding: 18px;
     }
 
-    .content .btn {
-        margin: 0 auto 40px;
+    .content {
+        margin: 0;
     }
 
     .content img {
         max-width: 400px;
     }
 
-    .content {
-        margin: 0;
+    .content .btn {
+        margin: 0 auto 40px;
     }
 }
 
 @media (max-width: 791px) {
     .profile {
-        padding: 120px 25px;
+        padding: 120px 25px 85px;
     }
 
     h1 {
@@ -173,6 +176,10 @@ p {
         max-width: 85%;
     }
 
+    .content {
+        margin: 80px auto 60px;
+    }
+
     .btn {
         padding: 12px 30px;
         font-size: 16px;
@@ -181,13 +188,14 @@ p {
     .mid-banner {
         margin-bottom: 25px;
     }
+
+    .project-description {
+        margin: 0;
+        padding: 10px;
+    }
 }
 
 @media (max-width: 516px) {
-    .profile {
-        padding-bottom: 80px;
-    }
-    
     h1 { 
         font-size: 56px;
     }
@@ -203,31 +211,39 @@ p {
     p {
         font-size: 18px;
     }
+
+    .content {
+        margin-bottom: 20px;
+    }
+    
+    .content h1 {
+        font-size: 46px;
+    }
+    
+    .content {
+        text-align: center;
+    }
+    
+    .content p {
+        text-align: center;
+    }
+    
+    .profile {
+        padding-bottom: 60px;
+    }
     
     .mid-banner {
-        margin-bottom: 15px;
+        margin-bottom: 5px;
         background-color: transparent;
         font-size: 16px;
     }
     
     .project-description {
         margin: 0;
-        padding: 10px;
+        padding: 8px;
     }
     
     .project-description h2 {
-        line-height: 0.75;
-    }
-    
-    .content h1 {
-        font-size: 46px;
-    }
-
-    .content {
-        text-align: center;
-    }
-
-    .content p {
-        text-align: center;
+        line-height: 1.25;
     }
 }
