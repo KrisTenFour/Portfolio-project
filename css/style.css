@@ -65,6 +65,7 @@ p {
 
 .content li {
     margin: 5px auto;
+    list-style: none;
 }
 
 .content .btn {
@@ -110,6 +111,10 @@ p {
 .project-description p {
     margin: 20px auto 30px;
     line-height: 30px;
+}
+
+.about-img {
+    width: 85%;
 }
 
 @media (max-width: 991px) { 
@@ -205,10 +210,6 @@ p {
     
     .content h1 {
         font-size: 46px;
-    }
-    
-    .content p {
-        text-align: center;
     }
     
     .mid-banner {
