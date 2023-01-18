@@ -50,7 +50,7 @@ p {
 }    
 
 .content {
-    margin: 85px auto 0;
+    margin: 100px auto 0;
 }
 
 .content h3 {
@@ -113,8 +113,10 @@ p {
     line-height: 30px;
 }
 
-.about-img {
+.about-img, .contact-image {
+    display: block;
     width: 85%;
+    margin: 0 auto;
 }
 
 @media (max-width: 991px) { 
