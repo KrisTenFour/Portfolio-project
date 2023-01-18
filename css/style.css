@@ -15,12 +15,12 @@ h1 {
 }
 
 h2 {
-    font-size: 46px;
+    font-size: 42px;
 }
 
 h3 {
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
     font-family: 'Inter', sans-serif;
 }
 
@@ -28,12 +28,12 @@ img {
     width: 100%;
     margin: auto;
     border: 2mm solid var(--tertiary-color);
-    border-radius: 4mm;
+    border-radius: 2mm;
 }
 
 p {
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Inter', sans-serif;
 }
 
@@ -53,12 +53,11 @@ p {
 }    
 
 .content {
-    margin: 100px auto 0;
+    margin: 80px auto 0;
 }
 
 .content ul {
     margin: 15px auto 25px;
-    font-size: 18px;
     line-height: 1.5;
 }
 
@@ -96,7 +95,7 @@ p {
 .mid-banner {
     margin-bottom: 50px;
     background-color: #f7f6f675;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .project {
@@ -113,12 +112,13 @@ p {
 }
 
 .about-img {
-    display: block;
-    width: 85%;
+    object-fit: cover;
+    width: 80%;
     margin: 0 auto;
 }
 
 .contact-image {
+    display: block;
     width: 40%;
 }
 
@@ -132,7 +132,7 @@ p {
     }
 
     h2 {
-        font-size: 46px;
+        font-size: 40px;
     }
 
     .profile h3 {
@@ -176,7 +176,7 @@ p {
     }
 
     h2 {
-        font-size: 40px;
+        font-size: 38px;
     }
     
     h3 {
@@ -221,7 +221,7 @@ p {
     }
     
     h2 {
-        font-size: 36px;
+        font-size: 34px;
     }
     
     h3 {
