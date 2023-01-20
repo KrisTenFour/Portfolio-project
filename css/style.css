@@ -94,7 +94,7 @@ nav a.active {
 }    
 
 .content {
-    margin: 80px auto 0;
+    margin: 60px auto 0;
 }
 
 .content ul {
@@ -150,7 +150,7 @@ nav a.active {
 }
 
 .project {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .project-description {
@@ -181,8 +181,8 @@ footer .contact-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 16px 100px;
-    padding: 50px 95px;
+    margin: 20px 100px;
+    padding: 45px 95px;
     background: #007a7496;
     border-radius: 2mm;
 }
@@ -191,12 +191,22 @@ footer .contact-box p {
     margin-bottom: 0;
 }
 
+footer .email-box {
+    margin: 5px 50px;
+    padding: 15px 10px;
+    background: #007a7496;
+    border-radius: 2mm;
+}
+
+footer .email-box h2 {
+    font-size: 24px;
+}
+
 footer .email {
     display: block;
-    margin-bottom: 30px;
     color: var(--tertiary-color);
     text-decoration: none;
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Inter', sans-serif;
 }
 
@@ -376,6 +386,15 @@ footer .social-links a:hover {
         
     .image-source {
         font-size: 11px;
+    }
+
+    footer .email-box h2 {
+        font-size: 20px;
+    }
+
+    footer .email {
+        overflow-wrap: break-word;
+        font-size: 15px;
     }
     
 }
