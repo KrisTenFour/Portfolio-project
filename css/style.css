@@ -126,6 +126,11 @@ nav a.active {
     border: 0.2mm solid var(--tertiary-color);
 }
 
+.btn-third {
+    color: var(--secondary-color);
+    border: 0.2mm solid var(--primary-color);
+}
+
 .btn-first:hover, .btn-second:hover {
     background: var(--secondary-color);
     border-color: var(--secondary-color);
