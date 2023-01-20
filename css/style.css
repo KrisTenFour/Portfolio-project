@@ -88,10 +88,6 @@ nav a.active {
     text-align: center;
 }
 
-.nav-object {
-    margin: 0 15px;
-}
-
 .btn {
     padding: 14px 42px;
     font-size: 16px;
@@ -179,6 +175,50 @@ nav a.active {
 
 .image-source {
     font-size: 14px;
+}
+
+footer .contact-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 100px;
+    padding: 50px 95px;
+    background: #007a7496;
+    border-radius: 2mm;
+}
+
+footer .contact-box p {
+    margin-bottom: 0;
+}
+
+footer .email {
+    display: block;
+    margin-bottom: 30px;
+    color: var(--tertiary-color);
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+}
+
+footer .email:hover {
+    color: var(--secondary-color);
+}
+
+footer .social-links {
+    margin: 10px auto 25px;
+}
+
+footer .social-links a {
+    padding: 5px 10px;
+    background: #007a7496;
+    color: var(--secondary-color);
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+footer .social-links a:hover {
+    color: var(--primary-color);
+    background: var(--secondary-color);
 }
 
 @media (max-width: 991px) { 
