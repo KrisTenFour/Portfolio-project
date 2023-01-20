@@ -173,6 +173,13 @@ nav a.active {
     padding: 15px 10px;
 }
 
+.footer-style {
+    margin: 20px 100px;
+    padding: 45px 95px;
+    background: #007a7496;
+    border-radius: 2mm;
+}
+
 footer .contact-box {
     display: flex;
     justify-content: space-between;
