@@ -4,17 +4,26 @@
     --tertiary-color: #FAF4D3;
 }
 
+body {
+    background: var(--primary-color);
+}
+
 h1, h2 {
     text-align: center;
     font-weight: bold;
     font-family: 'Sorts Mill Goudy', serif;
 } 
 
+h1, h3, p, li {
+    color: var(--tertiary-color);
+}
+
 h1 {
     font-size: 96px;
 }
 
 h2 {
+    color: #F6BE9A;
     font-size: 42px;
 }
 
@@ -60,7 +69,7 @@ nav li {
 }
 
 nav a {
-    color: black;
+    color: var(--tertiary-color);
     text-decoration: none;
 }
 
@@ -113,8 +122,8 @@ nav a.active {
 }    
 
 .btn-second {
-    color: var(--primary-color);
-    border: 0.2mm solid var(--primary-color);
+    color: var(--tertiary-color);
+    border: 0.2mm solid var(--tertiary-color);
 }
 
 .btn-first:hover, .btn-second:hover {
@@ -128,9 +137,13 @@ nav a.active {
     text-align: center;
 }
 
+.profile h1, .profile h2, .profile h3 {
+    color: black;
+}
+
 .mid-banner {
+    padding: 18px;
     margin-bottom: 50px;
-    background-color: #f7f6f675;
     font-size: 16px;
 }
 
