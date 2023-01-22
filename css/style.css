@@ -96,7 +96,7 @@ nav a.active {
 
 .btn {
     padding: 14px 42px;
-    font-size: 16px;
+    font-size: 14px;
 }    
 
 .content {
@@ -200,6 +200,7 @@ nav a.active {
 footer .contact-box {
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
     align-items: center;
 }
 
@@ -227,6 +228,10 @@ footer .email {
 
 footer .email:hover {
     color: var(--secondary-color);
+}
+
+footer .contact-content h2 {
+    font-size: 28px;
 }
 
 footer .social-links {
@@ -273,7 +278,7 @@ footer p {
     }
     
     .content {
-        margin-top: 35px;
+        margin: 35px auto 0;
     }
     
     .content img {
@@ -301,6 +306,10 @@ footer p {
     .project img:hover {
         filter: none;
         transform: none;
+    }
+
+    footer .email-box {
+        margin-top: 35px;
     }
 }
 
@@ -335,12 +344,12 @@ footer p {
     }
 
     .content {
-        margin: 35px auto 20px;
+        margin: 35px auto 0;
     }    
     
     .btn {
         padding: 12px 30px;
-        font-size: 16px;
+        font-size: 13px;
     }
 
     #mid-banner {
@@ -416,5 +425,9 @@ footer p {
     footer .email {
         overflow-wrap: break-word;
         font-size: 15px;
+    }
+
+    footer .contact-content h2 {
+        font-size: 20px;
     }
 }
