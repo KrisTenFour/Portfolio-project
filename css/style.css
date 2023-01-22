@@ -155,11 +155,11 @@ nav a.active {
 
 .project img {
     filter: grayscale(65%);
+    transition: all 300ms ease-in-out;
 }
 
 .project img:hover {
     filter: grayscale(0);
-    transition: all 300ms ease-in-out;
     transform: scale(1.1);
 }
 
