@@ -256,6 +256,10 @@ footer p {
     font-size: 14px;
 }
 
+footer p a {
+    box-shadow: none;
+}
+
 @media (max-width: 991px) { 
     h1 {
         font-size: 76px;
