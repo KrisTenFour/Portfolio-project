@@ -161,6 +161,10 @@ nav a.active {
     margin-bottom: 15px;
 }
 
+.project a {
+    box-shadow: none;
+}
+
 .project img {
     filter: grayscale(65%);
     transition: all 300ms ease-in-out;
@@ -184,6 +188,10 @@ nav a.active {
     object-fit: cover;
     width: 80%;
     margin: 0 auto;
+}
+
+.about-sub-heading {
+    font-size: 20px;
 }
 
 .content .contact-content {
@@ -313,6 +321,10 @@ footer p a {
         box-shadow: none;
     }
 
+    .about-sub-heading {
+        font-size: 19px;
+    }
+
     footer .email-box {
         margin-top: 35px;
     }
@@ -418,9 +430,9 @@ footer p a {
     .project-description p {
         margin-top: 0;
     }
-        
-    .image-source {
-        font-size: 11px;
+
+    .about-sub-heading {
+        font-size: 18px;
     }
 
     footer .email-box h2 {
