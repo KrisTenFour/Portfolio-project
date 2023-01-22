@@ -2,6 +2,7 @@
     --primary-color: #004643;
     --secondary-color: #D1AC00;
     --tertiary-color: #FAF4D3;
+    --box-shadow: 1px 2px 10px #4e4d4dd1;
 }
 
 body {
@@ -47,7 +48,7 @@ p {
 }
 
 a {
-    box-shadow: 1px 2px 10px #4e4d4dd1;
+    box-shadow: var(--box-shadow);
 }
 
 nav {
@@ -167,7 +168,7 @@ nav a.active {
 
 .project img:hover {
     filter: grayscale(0);
-    transform: scale(1.1);
+    box-shadow: 1px 2px 20px #00a59dea;
 }
 
 .project-description {
@@ -305,7 +306,7 @@ footer p {
     
     .project img:hover {
         filter: none;
-        transform: none;
+        box-shadow: none;
     }
 
     footer .email-box {
