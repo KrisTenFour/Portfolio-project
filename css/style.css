@@ -34,7 +34,7 @@ h3 {
 }
 
 img {
-    width: 95%;
+    width: 85%;
     margin: auto;
     border: 2mm solid var(--tertiary-color);
     border-radius: 2mm;
@@ -46,10 +46,14 @@ p {
     font-family: 'Inter', sans-serif;
 }
 
+a {
+    box-shadow: 1px 2px 10px #4e4d4dd1;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 10px 100px;
+    margin: 10px auto;
 }
 
 nav .logo {
@@ -71,6 +75,7 @@ nav li {
 nav a {
     color: var(--tertiary-color);
     text-decoration: none;
+    box-shadow: none;
 }
 
 nav a:hover {
@@ -212,6 +217,7 @@ footer .email-box h2 {
 footer .email {
     display: block;
     color: var(--tertiary-color);
+    box-shadow: none;
     text-decoration: none;
     font-size: 20px;
     font-family: 'Inter', sans-serif;
@@ -261,7 +267,7 @@ footer .social-links a:hover {
     }
     
     .content {
-        margin-top: 85px;
+        margin-top: 35px;
     }
     
     .content img {
@@ -280,6 +286,16 @@ footer .social-links a:hover {
     .project-description p {
         margin-top: 0;
     }  
+
+    .project img {
+        filter: none;
+        transition: none;
+    }
+    
+    .project img:hover {
+        filter: none;
+        transform: none;
+    }
 }
 
 @media (max-width: 791px) {
@@ -313,7 +329,7 @@ footer .social-links a:hover {
     }
 
     .content {
-        margin: 80px auto 20px;
+        margin: 35px auto 20px;
     }    
     
     .btn {
