@@ -120,6 +120,7 @@ nav a.active {
 .btn-first {
     margin-top: 30px;
     background: var(--primary-color);
+    color: white;
     border-color: var(--primary-color);
 }    
 
@@ -245,6 +246,10 @@ footer .social-links a:hover {
     background: var(--secondary-color);
 }
 
+footer p {
+    font-size: 14px;
+}
+
 @media (max-width: 991px) { 
     h1 {
         font-size: 76px;
@@ -349,6 +354,10 @@ footer .social-links a:hover {
     .image-source {
         font-size: 12px;
     }
+
+    footer p {
+        font-size: 13px;
+    }
     
 }
 
@@ -408,5 +417,4 @@ footer .social-links a:hover {
         overflow-wrap: break-word;
         font-size: 15px;
     }
-    
 }
