@@ -178,6 +178,14 @@ nav a.active {
     box-shadow: 1px 2px 20px #00a59dea;
 }
 
+.projects-page #project-portfolio {
+    filter: grayscale(0);
+}
+
+.projects-page #project-portfolio:hover {
+    box-shadow: none;
+}
+
 .about-kristen ul {
     margin: 15px auto 25px;
     line-height: 1.5;
