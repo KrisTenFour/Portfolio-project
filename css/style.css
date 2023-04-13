@@ -95,7 +95,7 @@ nav a.active {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1300px;
     text-align: center;
 }
 
@@ -286,7 +286,7 @@ footer p a {
     box-shadow: none;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1390px) {
     h1 {
         font-size: 76px;
     }
