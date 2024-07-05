@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #02535b;
+    --primary-color: #036c76;
     --secondary-color: #AFDDE5;
-    --tertiary-color: #cee2e6;
+    --tertiary-color: #FFFD98;
     --box-shadow: 1px 2px 10px #4e4d4dd1;
 }
 
@@ -14,6 +14,7 @@ h2 {
     text-align: center;
     font-weight: bold;
     font-family: 'Wittgenstein', serif;
+    color: var(--tertiary-color);
 }
 
 h3,
@@ -23,11 +24,10 @@ p,
     font-family: 'Wittgenstein', sans-serif;
 }
 
-h1,
 h3,
 p,
 li {
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
 }
 
 h1 {
@@ -35,7 +35,7 @@ h1 {
 }
 
 h2 {
-    color: #FFFD98;
+    color: var(--tertiary-color);
     font-size: 42px;
 }
 
@@ -44,7 +44,7 @@ h3 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 17px;
 }
 
 a {
@@ -53,7 +53,7 @@ a {
 
 img {
     width: 70%;
-    border: 2mm solid var(--tertiary-color);
+    border: 1mm solid var(--primary-color);
     border-radius: 2mm;
 }
 
@@ -81,7 +81,7 @@ nav li {
 }
 
 nav a {
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
     text-decoration: none;
     box-shadow: none;
 }
@@ -129,17 +129,17 @@ nav a.active {
     border-color: var(--primary-color);
 }
 
-.btn-second {
-    color: var(--tertiary-color);
-    border: 0.2mm solid var(--tertiary-color);
+.btn-second,
+.btn-third {
+    color: var(--secondary-color);
+    border: 0.2mm solid var(--primary-color);
 }
 
 .btn-third {
     color: black;
-    background: var(--secondary-color);
-    border: 0.2mm solid var(--secondary-color);
 }
 
+.btn-first:hover,
 .btn-primary:hover,
 .btn-second:hover,
 .btn-third:hover {
@@ -152,10 +152,8 @@ nav a.active {
     text-align: center;
 }
 
-.profile h1,
-.profile h2,
 .profile h3 {
-    color: black;
+    color: var(--tertiary-color);
 }
 
 #mid-banner {
@@ -181,6 +179,14 @@ nav a.active {
 
 .homepage-lower-buttons {
     margin: 15px;
+}
+
+.homepage-lower-buttons .see-all-projects {
+    margin-bottom: 10px;
+}
+
+.homepage-lower-buttons .btn {
+    background-color: var(--primary-color);
 }
 
 .projects-page .project {
@@ -239,20 +245,19 @@ nav a.active {
 }
 
 .email:hover {
-    color: #FFFD98;
+    color: var(--tertiary-color);
 }
 
 .footer-style {
-    margin: 20px 0;
+
     padding: 45px 95px;
-    background: var(--secondary-color);
+    background: rgb(71, 71, 71, 0.7);
     border-radius: 2mm;
 }
 
 footer .contact-box {
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
     align-items: center;
 }
 
@@ -293,7 +298,7 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-    color: #FFFD98;
+    color: var(--tertiary-color);
     background: var(--secondary-color);
 }
 
