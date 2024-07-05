@@ -94,6 +94,18 @@ nav a.active {
     color: var(--secondary-color);
 }
 
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
 .container {
     text-align: center;
 }
@@ -133,7 +145,6 @@ nav a.active {
 
 .profile {
     padding: 170px 25px;
-    background: var(--tertiary-color);
     text-align: center;
 }
 
