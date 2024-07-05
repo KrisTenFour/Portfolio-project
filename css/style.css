@@ -164,17 +164,23 @@ nav a.active {
     font-size: 16px;
 }
 
+.homepage {
+    padding: 50px;
+    border-radius: 10px;
+    background-color: rgb(71, 71, 71, 0.7);
+}
+
 .homepage .project-description {
     padding: 50px;
 }
 
 .homepage .project-description p {
-    margin: 20px auto 30px;
+    margin: 25px auto 30px;
     line-height: 30px;
 }
 
-.homepage-lower-buttons .see-all-projects {
-    margin-bottom: 15px;
+.homepage-lower-buttons {
+    margin: 15px;
 }
 
 .projects-page .project {
