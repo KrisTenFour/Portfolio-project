@@ -13,13 +13,14 @@ h1,
 h2 {
     text-align: center;
     font-weight: bold;
-    font-family: 'Sorts Mill Goudy', serif;
+    font-family: 'Wittgenstein', serif;
 }
 
 h3,
-p {
+p,
+.btn {
     text-align: center;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Wittgenstein', sans-serif;
 }
 
 h1,
@@ -104,6 +105,7 @@ nav a.active {
     top: 0;
     bottom: 0;
     z-index: -1;
+    animation-duration: 65s;
 }
 
 .container {
@@ -137,6 +139,7 @@ nav a.active {
     border: 0.2mm solid var(--secondary-color);
 }
 
+.btn-primary:hover,
 .btn-second:hover,
 .btn-third:hover {
     background: var(--secondary-color);
