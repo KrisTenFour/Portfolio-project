@@ -465,7 +465,7 @@ footer .social-links a:hover {
     }
 }
 
-@media (max-width: 516px) {
+@media (max-width: 553px) {
     h1 {
         font-size: 56px;
     }
@@ -536,13 +536,24 @@ footer .social-links a:hover {
     }
 }
 
-@media (max-width: 381px) {
+@media (max-width: 430px) {
     nav ul li {
-        padding: 4px;
+        padding: 8.5px;
     }
 
     .profile {
         padding: 80px 25px 65px;
     }
+}
 
+@media (max-width: 417px) {
+    nav ul li {
+        padding: 7px;
+    }
+}
+
+@media (max-width: 405px) {
+    nav ul li {
+        padding: 6px;
+    }
 }
