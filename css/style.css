@@ -81,7 +81,7 @@ nav li {
 }
 
 nav a {
-    color: var(--primary-color);
+    color: black;
     text-decoration: none;
     box-shadow: none;
 }
