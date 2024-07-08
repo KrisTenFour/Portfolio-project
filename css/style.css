@@ -48,7 +48,7 @@ p {
 }
 
 a {
-    box-shadow: var(--box-shadow);
+    color: rgb(96, 231, 254);
 }
 
 img {
@@ -254,6 +254,11 @@ nav a.active {
     font-size: 28px;
 }
 
+.contact-page-content .email {
+    font-size: 20px;
+    color: white;
+}
+
 .email:hover {
     color: var(--tertiary-color);
 }
@@ -285,12 +290,16 @@ footer .email-box h2 {
 
 footer .email {
     display: block;
-    color: var(--primary-color);
+    color: white;
     box-shadow: none;
     font-size: 20px;
     text-decoration: none;
     overflow-wrap: break-word;
     font-family: 'Wittgenstein', sans-serif;
+}
+
+footer p {
+    font-size: 14px;
 }
 
 footer .social-links {
@@ -308,14 +317,6 @@ footer .social-links a {
 footer .social-links a:hover {
     color: var(--tertiary-color);
     background: var(--secondary-color);
-}
-
-footer p {
-    font-size: 14px;
-}
-
-footer p a {
-    box-shadow: none;
 }
 
 @media (max-width: 1390px) {
@@ -387,10 +388,6 @@ footer p a {
 @media (max-width: 991px) {
     footer .email-box {
         margin-top: 0;
-    }
-
-    footer .email {
-        color: white;
     }
 }
 
