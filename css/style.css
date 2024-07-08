@@ -195,6 +195,10 @@ nav a.active {
     background-color: var(--primary-color);
 }
 
+#project_page_heading {
+    margin-bottom: 40px;
+}
+
 .projects-page .project {
     margin-bottom: 15px;
 }
@@ -357,6 +361,10 @@ footer p a {
         margin-top: 0;
     }
 
+    #project_page_heading {
+        margin-bottom: 27px;
+    }
+
     .projects-page .project img {
         filter: none;
         transition: none;
@@ -431,6 +439,10 @@ footer p a {
 
     .homepage-lower-buttons {
         margin-bottom: 12px;
+    }
+
+    #project_page_heading {
+        margin-bottom: 20px;
     }
 
     .contact-page-content {
