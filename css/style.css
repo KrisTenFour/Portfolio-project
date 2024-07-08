@@ -403,6 +403,10 @@ footer .social-links a:hover {
 }
 
 @media (max-width: 791px) {
+    nav ul li {
+        padding: 10px;
+    }
+
     h1 {
         font-size: 58px;
     }
@@ -493,7 +497,7 @@ footer .social-links a:hover {
     }
 
     .homepage {
-        padding: 25px;
+        padding: 28px 20px;
     }
 
     .homepage .project-description h2 {
@@ -527,4 +531,15 @@ footer .social-links a:hover {
     footer .email {
         font-size: 15px;
     }
+}
+
+@media (max-width: 381px) {
+    nav ul li {
+        padding: 4.1px;
+    }
+
+    .profile {
+        padding: 80px 25px 65px;
+    }
+
 }
