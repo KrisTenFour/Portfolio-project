@@ -155,6 +155,10 @@ nav a.active {
     border-color: var(--secondary-color);
 }
 
+#back_top_index {
+    margin: 0;
+}
+
 .profile {
     padding: 170px 25px;
     text-align: center;
