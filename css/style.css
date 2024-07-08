@@ -130,7 +130,8 @@ nav a.active {
 }
 
 .btn-second,
-.btn-third {
+.btn-third,
+.btn-contact {
     color: var(--secondary-color);
     border: 0.2mm solid var(--primary-color);
 }
@@ -143,7 +144,8 @@ nav a.active {
 .btn-first:hover,
 .btn-primary:hover,
 .btn-second:hover,
-.btn-third:hover {
+.btn-third:hover,
+.btn-contact:hover {
     background: var(--secondary-color);
     border-color: var(--secondary-color);
 }
