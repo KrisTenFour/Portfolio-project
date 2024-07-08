@@ -129,15 +129,18 @@ nav a.active {
     border-color: var(--primary-color);
 }
 
+.btn-second,
+.btn-third {
+    border: 0.2mm solid var(--secondary-color);
+}
+
 .btn-second {
     color: var(--secondary-color);
-    border: 0.2mm solid var(--primary-color);
 }
 
 .btn-third {
     margin-bottom: 20px;
     color: black;
-    border: 0.2mm solid var(--secondary-color);
 }
 
 .btn-contact {
@@ -535,7 +538,7 @@ footer .social-links a:hover {
 
 @media (max-width: 381px) {
     nav ul li {
-        padding: 4.1px;
+        padding: 4px;
     }
 
     .profile {
