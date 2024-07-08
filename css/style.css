@@ -122,8 +122,7 @@ nav a.active {
     font-size: 14px;
 }
 
-.btn-first,
-.btn-contact {
+.btn-first {
     margin-top: 30px;
     color: white;
     background: var(--primary-color);
@@ -137,7 +136,14 @@ nav a.active {
 }
 
 .btn-third {
+    margin-bottom: 20px;
     color: black;
+}
+
+.btn-contact {
+    color: white;
+    background: var(--primary-color);
+    border-color: var(--primary-color);
 }
 
 .btn-first:hover,
@@ -251,9 +257,8 @@ nav a.active {
 }
 
 .footer-style {
-
     padding: 45px 95px;
-    background: rgb(71, 71, 71, 0.7);
+    background: rgb(175, 221, 229, 0.39);
     border-radius: 2mm;
 }
 
