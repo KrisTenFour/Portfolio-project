@@ -122,7 +122,8 @@ nav a.active {
     font-size: 14px;
 }
 
-.btn-first {
+.btn-first,
+.btn-contact {
     margin-top: 30px;
     color: white;
     background: var(--primary-color);
@@ -130,8 +131,7 @@ nav a.active {
 }
 
 .btn-second,
-.btn-third,
-.btn-contact {
+.btn-third {
     color: var(--secondary-color);
     border: 0.2mm solid var(--primary-color);
 }
