@@ -279,15 +279,14 @@ footer .email-box h2 {
     font-size: 24px;
 }
 
-footer .email,
-.email {
+footer .email {
     display: block;
     color: var(--primary-color);
     box-shadow: none;
     font-size: 20px;
     text-decoration: none;
     overflow-wrap: break-word;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Wittgenstein', sans-serif;
 }
 
 footer .social-links {
@@ -374,6 +373,16 @@ footer p a {
 
     footer .email-box {
         margin-top: 35px;
+    }
+}
+
+@media (max-width: 991px) {
+    footer .email-box {
+        margin-top: 0;
+    }
+
+    footer .email {
+        color: white;
     }
 }
 
@@ -483,8 +492,7 @@ footer p a {
         font-size: 20px;
     }
 
-    footer .email,
-    .email {
+    footer .email {
         font-size: 15px;
     }
 }
