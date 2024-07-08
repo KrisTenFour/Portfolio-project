@@ -129,8 +129,7 @@ nav a.active {
     border-color: var(--primary-color);
 }
 
-.btn-second,
-.btn-third {
+.btn-second {
     color: var(--secondary-color);
     border: 0.2mm solid var(--primary-color);
 }
@@ -138,6 +137,7 @@ nav a.active {
 .btn-third {
     margin-bottom: 20px;
     color: black;
+    border: 0.2mm solid var(--secondary-color);
 }
 
 .btn-contact {
@@ -469,6 +469,10 @@ footer .social-links a:hover {
         padding: 3px;
     }
 
+    .container {
+        max-width: 93%;
+    }
+
     .profile {
         padding: 90px 25px 65px;
     }
@@ -495,6 +499,10 @@ footer .social-links a:hover {
 
     .contact-page-content h2 {
         font-size: 20px;
+    }
+
+    .contact-page-content .email {
+        overflow-wrap: break-word;
     }
 
     footer .email-box h2 {
