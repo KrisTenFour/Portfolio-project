@@ -30,7 +30,7 @@ p,
 h3,
 p,
 li {
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 h1 {
@@ -100,8 +100,33 @@ nav a.active {
     color: var(--tertiary-color);
 }
 
+.profile,
 .container {
     text-align: center;
+}
+
+.profile,
+.email-box {
+    background-color: #036c76c2;
+}
+
+.profile,
+.about-page .content {
+    border-radius: 4px 4px 0 0;
+}
+
+.homepage,
+.projects-page .content,
+.about-page .content,
+.contact-page .content {
+    background-color: rgba(119, 118, 118, 0.516);
+
+}
+
+.contact-page .email,
+footer .social-links a,
+footer .email-box h2 {
+    font-size: 24px;
 }
 
 .btn {
@@ -121,10 +146,7 @@ nav a.active {
     border: 0.2mm solid var(--secondary-color);
 }
 
-.btn-second {
-    color: var(--secondary-color);
-}
-
+.btn-second,
 .btn-third {
     margin-bottom: 20px;
     color: black;
@@ -152,21 +174,14 @@ nav a.active {
 
 .profile {
     padding: 170px 25px;
-    text-align: center;
 }
 
 .profile h3 {
     color: var(--tertiary-color);
 }
 
-.homepage,
-.projects-page .content {
-    border-radius: 4px 4px 0 0;
-}
-
 .homepage {
     padding: 50px;
-    background-color: rgb(71, 71, 71, 0.7);
 }
 
 .homepage .project-description {
@@ -187,7 +202,7 @@ nav a.active {
 }
 
 .projects-page .content {
-    background-color: rgba(255, 255, 255, 0.38);
+    border-radius: 4px 4px 0 0;
 }
 
 .projects-page .project {
@@ -248,18 +263,9 @@ nav a.active {
     font-size: 20px;
 }
 
-.contact-page-content {
-    margin: 5px 50px;
-    padding: 15px 10px;
-}
-
-.contact-page-content h2 {
-    font-size: 28px;
-}
-
-.contact-page-content .email {
-    font-size: 20px;
-    color: white;
+.contact-page .content {
+    margin: 25px 350px;
+    padding: 20px;
 }
 
 .email:hover {
@@ -268,7 +274,6 @@ nav a.active {
 
 .footer-style {
     padding: 45px 95px;
-    background: rgb(175, 221, 229, 0.39);
     border-radius: 2mm;
 }
 
@@ -286,10 +291,6 @@ footer .contact-box p {
 footer .email-box {
     margin: 5px 50px;
     padding: 15px 10px;
-}
-
-footer .email-box h2 {
-    font-size: 24px;
 }
 
 footer .email {
@@ -315,7 +316,6 @@ footer .social-links a {
     background: var(--secondary-color);
     color: var(--primary-color);
     border-radius: 50%;
-    font-size: 24px;
 }
 
 footer .social-links a:hover {
