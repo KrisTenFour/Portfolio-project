@@ -51,7 +51,7 @@ p {
 }
 
 a {
-    color: rgb(96, 231, 254);
+    color: blue;
 }
 
 img {
@@ -170,7 +170,7 @@ footer .email-box h2 {
 
 .profile {
     padding: 170px 25px;
-    background: linear-gradient(rgba(55, 79, 216, 0.381), rgba(66, 88, 211, 0.466)), #7c9ec661;
+    background: linear-gradient(rgba(59, 121, 227, 0.648), rgba(66, 88, 211, 0.582)), #7c9ec661;
     ;
 }
 
@@ -236,7 +236,7 @@ footer .email-box h2 {
 }
 
 .about-kristen {
-    margin-bottom: 30px;
+    padding: 50px;
 }
 
 .about-kristen ul {
@@ -392,10 +392,6 @@ footer .social-links a:hover {
         margin: 25px auto 0;
     }
 
-    .about-kristen {
-        margin-bottom: 25px;
-    }
-
     footer .email-box {
         margin: 0 auto;
     }
@@ -509,6 +505,10 @@ footer .social-links a:hover {
 
     .homepage .project-description p {
         margin-top: 0;
+    }
+
+    .homepage .homepage-lower-buttons {
+        margin: 0;
     }
 
     .about-kristen .sub-heading {
