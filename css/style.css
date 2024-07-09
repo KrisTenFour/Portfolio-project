@@ -115,14 +115,18 @@ nav,
 .about-page .content,
 .contact-page .content {
     background: linear-gradient(rgba(55, 79, 216, 0.409), rgba(55, 154, 216, 0.452)), #7c9fc6b1;
-    ;
-
 }
 
 .contact-page .email,
 footer .social-links a,
 footer .email-box h2 {
     font-size: 24px;
+}
+
+.contact-page .content,
+footer .email {
+    overflow-wrap: break-word;
+
 }
 
 .btn {
@@ -171,7 +175,6 @@ footer .email-box h2 {
 .profile {
     padding: 170px 25px;
     background: linear-gradient(rgba(59, 121, 227, 0.648), rgba(66, 88, 211, 0.582)), #7c9ec661;
-    ;
 }
 
 .profile h3 {
@@ -262,8 +265,8 @@ footer .email-box h2 {
 }
 
 .contact-page .content {
-    margin: 25px 350px;
     padding: 20px;
+    border-radius: 4px;
 }
 
 .email:hover {
@@ -300,7 +303,6 @@ footer .email {
     box-shadow: none;
     font-size: 20px;
     text-decoration: none;
-    overflow-wrap: break-word;
     font-family: 'Wittgenstein', sans-serif;
 }
 
