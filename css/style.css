@@ -115,10 +115,6 @@ nav a.active {
     text-align: center;
 }
 
-.content {
-    margin: 60px 50px 0;
-}
-
 .btn {
     padding: 14px 42px;
     font-size: 14px;
@@ -173,10 +169,14 @@ nav a.active {
     color: var(--tertiary-color);
 }
 
+.homepage,
+.projects-page .content {
+    border-radius: 4px 4px 0 0;
+    background-color: rgb(71, 71, 71, 0.7);
+}
+
 .homepage {
     padding: 50px;
-    border-radius: 10px;
-    background-color: rgb(71, 71, 71, 0.7);
 }
 
 .homepage .project-description {
@@ -197,11 +197,11 @@ nav a.active {
 }
 
 #project_page_heading {
-    margin-bottom: 40px;
+    margin: 40px;
 }
 
 .projects-page .project {
-    margin-bottom: 15px;
+    margin: 50px auto 5px;
 }
 
 .projects-page .project a {
@@ -281,6 +281,7 @@ footer .contact-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 0 0 4px 4px;
 }
 
 footer .contact-box p {
@@ -349,18 +350,6 @@ footer .social-links a:hover {
         padding-bottom: 85px;
     }
 
-    .content {
-        margin: 35px auto 0;
-    }
-
-    .content img {
-        max-width: 400px;
-    }
-
-    .content .btn {
-        margin: 0 auto 40px;
-    }
-
     .homepage .project-description {
         margin: 0;
         padding: 5px;
@@ -372,6 +361,14 @@ footer .social-links a:hover {
 
     #project_page_heading {
         margin-bottom: 27px;
+    }
+
+    .projects-page .content img {
+        max-width: 400px;
+    }
+
+    .projects-page .content .btn {
+        margin: 0 auto 40px;
     }
 
     .projects-page .project img {
@@ -390,10 +387,15 @@ footer .social-links a:hover {
 
     footer .email-box {
         margin-top: 35px;
+        border-radius: 0 0 4px 4px;
     }
 }
 
 @media (max-width: 991px) {
+    .projects-page .project {
+        margin: 40px auto 0;
+    }
+
     .about-kristen {
         margin-bottom: 25px;
     }
@@ -545,6 +547,10 @@ footer .social-links a:hover {
 
     .profile {
         padding: 80px 25px 65px;
+    }
+
+    .projects-page .project {
+        margin: 30px auto 0;
     }
 
     footer .social-links a {
