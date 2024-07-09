@@ -6,7 +6,10 @@
 }
 
 body {
-    background: var(--primary-color);
+    background-image: url('/images/background-photo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1,
