@@ -1,12 +1,12 @@
 :root {
     --primary-color: #035d76;
     --secondary-color: #AFDDE5;
-    --tertiary-color: #f6e261;
+    --tertiary-color: #fed449;
     --box-shadow: 1px 2px 10px #4e4d4dd1;
 }
 
 body {
-    background-image: url('/images/background-photo.jpg');
+    background: url('../images/background-photo.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -65,7 +65,6 @@ nav {
     justify-content: space-between;
     margin: 5px auto;
     border-radius: 1.9mm;
-    background-color: rgba(53, 53, 53, 0.5);
 }
 
 nav .logo {
@@ -110,11 +109,12 @@ nav a.active {
     border-radius: 4px 4px 0 0;
 }
 
+nav,
 .homepage,
 .projects-page .content,
 .about-page .content,
 .contact-page .content {
-    background: linear-gradient(rgba(55, 79, 216, 0.685), rgba(55, 154, 216, 0.685)), #7c9fc6b1;
+    background: linear-gradient(rgba(55, 79, 216, 0.409), rgba(55, 154, 216, 0.452)), #7c9fc6b1;
     ;
 
 }
@@ -170,12 +170,12 @@ footer .email-box h2 {
 
 .profile {
     padding: 170px 25px;
-    background: linear-gradient(rgba(55, 79, 216, 0.685), rgba(66, 88, 211, 0.621)), #7c9fc6b1;
+    background: linear-gradient(rgba(55, 79, 216, 0.381), rgba(66, 88, 211, 0.466)), #7c9ec661;
     ;
 }
 
 .profile h3 {
-    color: var(--tertiary-color);
+    color: var(--primary-color);
 }
 
 .homepage {
@@ -280,6 +280,7 @@ footer .contact-box {
     justify-content: space-between;
     align-items: center;
     border-radius: 0 0 4px 4px;
+    background: linear-gradient(rgba(55, 154, 216, 0.571), rgba(81, 127, 220, 0.4)), #7c9fc6b1;
 }
 
 footer .contact-box p {
@@ -289,7 +290,7 @@ footer .contact-box p {
 footer .email-box {
     margin: 5px 50px;
     padding: 15px 10px;
-    background: linear-gradient(rgba(55, 154, 216, 0.685), rgba(81, 127, 220, 0.594)), #7c9fc6b1;
+    background: linear-gradient(rgba(55, 154, 216, 0.571), rgba(81, 127, 220, 0.4)), #7c9fc6b1;
     ;
 }
 
