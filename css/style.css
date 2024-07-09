@@ -189,6 +189,11 @@ footer .email {
     padding: 50px;
 }
 
+.homepage .project-description a {
+    text-decoration: none;
+    color: #fed449;
+}
+
 .homepage .project-description p {
     margin: 25px auto 30px;
     line-height: 30px;
