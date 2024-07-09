@@ -548,10 +548,6 @@ footer .social-links a:hover {
         padding: 8.5px;
     }
 
-    .profile {
-        padding: 160px 25px;
-    }
-
     .projects-page .project {
         margin: 18px auto 0;
     }
@@ -572,10 +568,6 @@ footer .social-links a:hover {
 @media (max-width: 417px) {
     nav ul li {
         padding: 7px;
-    }
-
-    .profile {
-        padding: 150px 25px;
     }
 }
 
