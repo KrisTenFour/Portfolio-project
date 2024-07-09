@@ -192,10 +192,6 @@ nav a.active {
     margin: 15px;
 }
 
-.homepage-lower-buttons .see-all-projects {
-    margin-bottom: 10px;
-}
-
 .homepage-lower-buttons .btn {
     background-color: var(--primary-color);
 }
@@ -403,7 +399,7 @@ footer .social-links a:hover {
     }
 
     footer .email-box {
-        margin-top: 0;
+        margin: 0 auto;
     }
 }
 
