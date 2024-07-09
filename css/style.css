@@ -336,11 +336,6 @@ footer .social-links a:hover {
         font-size: 22px;
     }
 
-    .profile {
-        padding-top: 150px;
-        padding-bottom: 85px;
-    }
-
     .homepage .project-description {
         margin: 0;
         padding: 5px;
@@ -430,10 +425,6 @@ footer .social-links a:hover {
         margin: 0 auto;
     }
 
-    .profile {
-        padding: 120px 25px 85px;
-    }
-
     .content {
         margin: 35px auto 0;
     }
@@ -495,7 +486,7 @@ footer .social-links a:hover {
     }
 
     .profile {
-        padding: 164px 25px;
+        padding: 160px 25px;
     }
 
     .content h1 {
