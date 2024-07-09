@@ -22,7 +22,8 @@ h2 {
 
 h3,
 p,
-.btn {
+.btn,
+footer .email {
     text-align: center;
     font-family: 'Wittgenstein', sans-serif;
 }
@@ -105,6 +106,7 @@ nav a.active {
 }
 
 .profile,
+.projects-page .content,
 .about-page .content {
     border-radius: 4px 4px 0 0;
 }
@@ -123,40 +125,25 @@ footer .email-box h2 {
     font-size: 24px;
 }
 
+.about-kristen .sub-heading,
+footer .email {
+    font-size: 20px;
+}
+
 .contact-page .content,
 footer .email {
     overflow-wrap: break-word;
 
 }
 
-.btn {
-    padding: 14px 42px;
-    font-size: 14px;
+footer .contact-box,
+footer .email-box {
+    background: linear-gradient(rgba(55, 154, 216, 0.571), rgba(81, 127, 220, 0.4)), #7c9fc6b1;
 }
 
-.btn-first {
-    margin-top: 30px;
-    color: white;
-    background: var(--primary-color);
-    border-color: var(--primary-color);
-}
-
-.btn-second,
-.btn-third {
-    border: 0.2mm solid var(--secondary-color);
-    color: white;
-}
-
-.btn-second,
-.btn-third {
-    margin-bottom: 20px;
-    background-color: var(--primary-color);
-}
-
-.btn-contact {
-    color: white;
-    background: var(--primary-color);
-    border-color: var(--primary-color);
+footer .social-links a,
+footer .social-links a:hover {
+    background: var(--secondary-color);
 }
 
 .btn-first:hover,
@@ -168,6 +155,39 @@ footer .email {
     border-color: var(--secondary-color);
 }
 
+.btn-first,
+.btn-second,
+.btn-third {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.btn-second,
+.btn-third {
+    margin-bottom: 20px;
+    border: 0.2mm solid var(--secondary-color);
+}
+
+.btn,
+footer p {
+    font-size: 14px;
+}
+
+.btn {
+    padding: 14px 42px;
+}
+
+.btn-first {
+    margin-top: 30px;
+    border-color: var(--primary-color);
+}
+
+.btn-contact {
+    color: white;
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
 #back_top_index {
     margin: 0;
 }
@@ -177,15 +197,9 @@ footer .email {
     background: linear-gradient(rgba(59, 121, 227, 0.648), rgba(66, 88, 211, 0.582)), #7c9ec661;
 }
 
-.profile h3 {
-    color: var(--primary-color);
-}
-
-.homepage {
-    padding: 50px;
-}
-
-.homepage .project-description {
+.homepage,
+.homepage .project-description,
+.about-kristen {
     padding: 50px;
 }
 
@@ -205,10 +219,6 @@ footer .email {
 
 #project_page_heading {
     padding-top: 30px;
-}
-
-.projects-page .content {
-    border-radius: 4px 4px 0 0;
 }
 
 .projects-page .project {
@@ -243,10 +253,6 @@ footer .email {
     box-shadow: none;
 }
 
-.about-kristen {
-    padding: 50px;
-}
-
 .about-kristen .text {
     padding: 0 20px;
 }
@@ -269,10 +275,6 @@ footer .email {
     object-fit: cover;
 }
 
-.about-kristen .sub-heading {
-    font-size: 20px;
-}
-
 .contact-page .content {
     padding: 20px;
     border-radius: 4px;
@@ -292,7 +294,6 @@ footer .contact-box {
     justify-content: space-between;
     align-items: center;
     border-radius: 0 0 4px 4px;
-    background: linear-gradient(rgba(55, 154, 216, 0.571), rgba(81, 127, 220, 0.4)), #7c9fc6b1;
 }
 
 footer .contact-box p {
@@ -302,21 +303,6 @@ footer .contact-box p {
 footer .email-box {
     margin: 5px 50px;
     padding: 15px 10px;
-    background: linear-gradient(rgba(55, 154, 216, 0.571), rgba(81, 127, 220, 0.4)), #7c9fc6b1;
-    ;
-}
-
-footer .email {
-    display: block;
-    color: white;
-    box-shadow: none;
-    font-size: 20px;
-    text-decoration: none;
-    font-family: 'Wittgenstein', sans-serif;
-}
-
-footer p {
-    font-size: 14px;
 }
 
 footer .social-links {
@@ -325,14 +311,12 @@ footer .social-links {
 
 footer .social-links a {
     padding: 5px 10px;
-    background: var(--secondary-color);
     color: var(--primary-color);
     border-radius: 50%;
 }
 
 footer .social-links a:hover {
     color: var(--tertiary-color);
-    background: var(--secondary-color);
 }
 
 @media (max-width: 1390px) {
@@ -402,6 +386,8 @@ footer .social-links a:hover {
     .btn-third {
         margin-top: 15px;
     }
+
+    .homepage {}
 
     .projects-page .project {
         margin: 25px auto 0;
