@@ -139,6 +139,7 @@ nav a.active {
 .btn-third {
     margin-bottom: 20px;
     color: black;
+    background-color: var(--primary-color);
 }
 
 .btn-contact {
@@ -172,11 +173,11 @@ nav a.active {
 .homepage,
 .projects-page .content {
     border-radius: 4px 4px 0 0;
-    background-color: rgb(71, 71, 71, 0.7);
 }
 
 .homepage {
     padding: 50px;
+    background-color: rgb(71, 71, 71, 0.7);
 }
 
 .homepage .project-description {
@@ -192,12 +193,12 @@ nav a.active {
     margin: 15px;
 }
 
-.homepage-lower-buttons .btn {
-    background-color: var(--primary-color);
-}
-
 #project_page_heading {
     margin: 40px;
+}
+
+.projects-page .content {
+    background-color: rgba(255, 255, 255, 0.38);
 }
 
 .projects-page .project {
@@ -206,6 +207,11 @@ nav a.active {
 
 .projects-page .project a {
     box-shadow: none;
+}
+
+.projects-page .project p {
+    font-size: 18px;
+    color: var(--primary-color);
 }
 
 .projects-page .project img {
