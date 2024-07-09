@@ -242,6 +242,10 @@ footer .email {
     padding: 50px;
 }
 
+.about-kristen .text {
+    padding: 0 20px;
+}
+
 .about-kristen ul {
     margin: 15px auto 25px;
     padding: 0;
@@ -390,8 +394,16 @@ footer .social-links a:hover {
 }
 
 @media (max-width: 991px) {
+    .btn-third {
+        margin-top: 15px;
+    }
+
     .projects-page .project {
         margin: 25px auto 0;
+    }
+
+    .about-kristen {
+        padding: 35px;
     }
 
     footer .email-box {
@@ -452,6 +464,10 @@ footer .social-links a:hover {
 
     .projects-page .project {
         margin: 20px auto 0;
+    }
+
+    .about-kristen {
+        padding: 30px;
     }
 
     .contact-page-content {
@@ -549,6 +565,14 @@ footer .social-links a:hover {
 
     .projects-page .project {
         margin: 18px auto 0;
+    }
+
+    .about-kristen {
+        padding: 20px;
+    }
+
+    .about-kristen .text {
+        padding: 0;
     }
 
     footer .social-links a {
