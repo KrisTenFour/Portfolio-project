@@ -193,7 +193,7 @@ footer p {
 }
 
 .profile {
-    padding: 170px 25px;
+    padding: 175px 25px;
     background: linear-gradient(rgba(59, 121, 227, 0.648), rgba(66, 88, 211, 0.582)), #7c9ec661;
 }
 
@@ -483,10 +483,6 @@ footer .social-links a:hover {
 
     .container {
         max-width: 93%;
-    }
-
-    .profile {
-        padding: 160px 25px;
     }
 
     .content h1 {
