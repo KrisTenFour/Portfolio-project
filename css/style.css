@@ -495,7 +495,7 @@ footer .social-links a:hover {
     }
 
     .profile {
-        padding: 90px 25px 65px;
+        padding: 164px 25px;
     }
 
     .content h1 {
@@ -549,7 +549,7 @@ footer .social-links a:hover {
     }
 
     .profile {
-        padding: 80px 25px 65px;
+        padding: 160px 25px;
     }
 
     .projects-page .project {
@@ -573,10 +573,24 @@ footer .social-links a:hover {
     nav ul li {
         padding: 7px;
     }
+
+    .profile {
+        padding: 150px 25px;
+    }
 }
 
 @media (max-width: 405px) {
     nav ul li {
         padding: 6px;
+    }
+
+    .profile {
+        padding: 144px 25px;
+    }
+}
+
+@media (max-width: 396px) {
+    nav ul li {
+        padding: 5px;
     }
 }
