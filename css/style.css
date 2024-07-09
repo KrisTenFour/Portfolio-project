@@ -196,7 +196,7 @@ footer .email-box h2 {
 }
 
 #project_page_heading {
-    margin: 40px;
+    padding-top: 30px;
 }
 
 .projects-page .content {
@@ -355,16 +355,16 @@ footer .social-links a:hover {
         margin-top: 0;
     }
 
-    #project_page_heading {
-        margin-bottom: 27px;
-    }
-
     .projects-page .content img {
         max-width: 400px;
     }
 
     .projects-page .content .btn {
         margin: 0 auto 40px;
+    }
+
+    .projects-page .project {
+        margin: 30px auto;
     }
 
     .projects-page .project img {
@@ -389,7 +389,7 @@ footer .social-links a:hover {
 
 @media (max-width: 991px) {
     .projects-page .project {
-        margin: 40px auto 0;
+        margin: 25px auto 0;
     }
 
     .about-kristen {
@@ -452,8 +452,8 @@ footer .social-links a:hover {
         margin-bottom: 12px;
     }
 
-    #project_page_heading {
-        margin-bottom: 20px;
+    .projects-page .project {
+        margin: 20px auto 0;
     }
 
     .contact-page-content {
@@ -546,7 +546,7 @@ footer .social-links a:hover {
     }
 
     .projects-page .project {
-        margin: 30px auto 0;
+        margin: 18px auto 0;
     }
 
     footer .social-links a {
