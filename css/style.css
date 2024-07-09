@@ -226,7 +226,7 @@ footer .email {
 
 .projects-page .project img {
     border: 0.1mm solid var(--secondary-color);
-    filter: grayscale(65%);
+    filter: grayscale(90%);
     transition: all 300ms ease-in-out;
 }
 
