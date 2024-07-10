@@ -20,6 +20,14 @@ h2 {
     color: var(--tertiary-color);
 }
 
+h2,
+nav a:hover,
+nav a.active,
+.email:hover,
+footer .social-links a:hover {
+    color: var(--tertiary-color);
+}
+
 h3,
 p,
 .btn,
@@ -39,7 +47,6 @@ h1 {
 }
 
 h2 {
-    color: var(--tertiary-color);
     font-size: 42px;
 }
 
@@ -53,6 +60,7 @@ p {
 
 a {
     color: blue;
+    box-shadow: none;
 }
 
 img {
@@ -87,17 +95,15 @@ nav li {
 
 nav a {
     color: black;
-    text-decoration: none;
-    box-shadow: none;
 }
 
 nav a:hover {
-    color: var(--tertiary-color);
     transition: all 130ms ease-in-out;
 }
 
-nav a.active {
-    color: var(--tertiary-color);
+nav a,
+.homepage .project-description a {
+    text-decoration: none;
 }
 
 .profile,
@@ -119,10 +125,10 @@ nav,
     background: linear-gradient(rgba(55, 79, 216, 0.409), rgba(55, 154, 216, 0.452)), #7c9fc6b1;
 }
 
-.contact-page .email,
-footer .social-links a,
-footer .email-box h2 {
-    font-size: 24px;
+.homepage,
+.homepage .project-description,
+.about-kristen {
+    padding: 50px;
 }
 
 .about-kristen .sub-heading,
@@ -130,10 +136,15 @@ footer .email {
     font-size: 20px;
 }
 
+.contact-page .email,
+footer .social-links a,
+footer .email-box h2 {
+    font-size: 24px;
+}
+
 .contact-page .content,
 footer .email {
     overflow-wrap: break-word;
-
 }
 
 footer .contact-box,
@@ -142,23 +153,21 @@ footer .email-box {
     background: linear-gradient(rgba(55, 154, 216, 0.571), rgba(81, 127, 220, 0.4)), #7c9fc6b1;
 }
 
-footer .social-links a,
-footer .social-links a:hover {
-    background: var(--secondary-color);
-}
-
 .btn-first:hover,
 .btn-primary:hover,
 .btn-second:hover,
 .btn-third:hover,
-.btn-contact:hover {
+.btn-contact:hover,
+footer .social-links a,
+footer .social-links a:hover {
     background: var(--secondary-color);
     border-color: var(--secondary-color);
 }
 
 .btn-first,
 .btn-second,
-.btn-third {
+.btn-third,
+.btn-contact {
     color: white;
     background-color: var(--primary-color);
 }
@@ -167,6 +176,11 @@ footer .social-links a:hover {
 .btn-third {
     margin-bottom: 20px;
     border: 0.2mm solid var(--secondary-color);
+}
+
+.btn-first,
+.btn-contact {
+    border-color: var(--primary-color);
 }
 
 .btn,
@@ -180,13 +194,6 @@ footer p {
 
 .btn-first {
     margin-top: 30px;
-    border-color: var(--primary-color);
-}
-
-.btn-contact {
-    color: white;
-    background: var(--primary-color);
-    border-color: var(--primary-color);
 }
 
 #back_top_index {
@@ -198,14 +205,7 @@ footer p {
     background: linear-gradient(rgba(59, 121, 227, 0.648), rgba(66, 88, 211, 0.582)), #7c9ec661;
 }
 
-.homepage,
-.homepage .project-description,
-.about-kristen {
-    padding: 50px;
-}
-
 .homepage .project-description a {
-    text-decoration: none;
     color: #fed449;
 }
 
@@ -214,20 +214,12 @@ footer p {
     line-height: 30px;
 }
 
-.homepage-lower-buttons {
-    margin: 15px;
-}
-
 #project_page_heading {
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .projects-page .project {
     margin: 50px auto 5px;
-}
-
-.projects-page .project a {
-    box-shadow: none;
 }
 
 .projects-page .project p {
@@ -243,35 +235,19 @@ footer p {
 
 .projects-page .project img:hover {
     filter: grayscale(0);
-    box-shadow: 1px 2px 20px #00a59dea;
-}
-
-.projects-page #project-portfolio {
-    filter: grayscale(0);
-}
-
-.projects-page #project-portfolio:hover {
-    box-shadow: none;
+    box-shadow: 1px 2px 20px #00a59dc6;
 }
 
 .about-kristen .text {
     padding: 0 20px;
 }
 
-.about-kristen ul {
-    margin: 15px auto 25px;
-    padding: 0;
-    line-height: 1.5;
-}
-
 .about-kristen li {
-    margin: 5px auto;
     list-style: none;
 }
 
 .about-img {
     width: 80%;
-    margin: 0 auto;
     border: 0.5mm solid var(--secondary-color);
     object-fit: cover;
 }
@@ -279,10 +255,6 @@ footer p {
 .contact-page .content {
     padding: 20px;
     border-radius: 4px;
-}
-
-.email:hover {
-    color: var(--tertiary-color);
 }
 
 .footer-style {
@@ -313,10 +285,6 @@ footer .social-links a {
     padding: 5px 10px;
     color: var(--primary-color);
     border-radius: 50%;
-}
-
-footer .social-links a:hover {
-    color: var(--tertiary-color);
 }
 
 @media (max-width: 1390px) {
