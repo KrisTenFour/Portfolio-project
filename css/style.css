@@ -12,36 +12,6 @@ body {
     background-size: cover;
 }
 
-h1,
-h2 {
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Wittgenstein', serif;
-    color: var(--tertiary-color);
-}
-
-h2,
-nav a:hover,
-nav a.active,
-.email:hover,
-footer .social-links a:hover {
-    color: var(--tertiary-color);
-}
-
-h3,
-p,
-.btn,
-footer .email {
-    text-align: center;
-    font-family: 'Wittgenstein', sans-serif;
-}
-
-h3,
-p,
-li {
-    color: var(--primary-color);
-}
-
 h1 {
     font-size: 96px;
 }
@@ -99,6 +69,36 @@ nav a {
 
 nav a:hover {
     transition: all 130ms ease-in-out;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Wittgenstein', serif;
+    color: var(--tertiary-color);
+}
+
+h2,
+nav a:hover,
+nav a.active,
+.email:hover,
+footer .social-links a:hover {
+    color: var(--tertiary-color);
+}
+
+h3,
+p,
+.btn,
+footer .email {
+    text-align: center;
+    font-family: 'Wittgenstein', sans-serif;
+}
+
+h3,
+p,
+li {
+    color: var(--secondary-color);
 }
 
 nav a,
@@ -224,7 +224,6 @@ footer p {
 
 .projects-page .project p {
     font-size: 18px;
-    color: var(--primary-color);
 }
 
 .projects-page .project img {
