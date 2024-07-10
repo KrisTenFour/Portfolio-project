@@ -80,8 +80,7 @@ h2,
 nav a:hover,
 nav a.active,
 .homepage .project-description h2 a,
-.email:hover,
-footer .social-links a:hover {
+.email:hover {
     color: var(--tertiary-color);
 }
 
