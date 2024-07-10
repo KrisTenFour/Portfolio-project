@@ -261,11 +261,11 @@ footer .email-box {
 }
 
 footer .social-links {
-    margin: 10px auto 25px;
+    margin: 10px auto;
 }
 
 footer .social-links a {
-    padding: 5px 10px;
+    padding: 3px 10px;
     border-radius: 50%;
 }
 
@@ -390,10 +390,6 @@ footer .social-links a {
     .about-kristen {
         padding: 30px;
     }
-
-    footer .social-links a {
-        padding: 3px 8px;
-    }
 }
 
 @media (max-width: 553px) {
@@ -439,12 +435,6 @@ footer .social-links a {
 
     footer .email {
         font-size: 15px;
-    }
-}
-
-@media (max-width: 430px) {
-    footer .social-links a {
-        padding: 2px 7px;
     }
 }
 
