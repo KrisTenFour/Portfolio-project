@@ -330,8 +330,8 @@ footer .social-links a {
         max-width: 97%;
     }
 
-    .btn-third {
-        margin-top: 15px;
+    .projects-page .content .btn {
+        margin: 20px auto;
     }
 
     .projects-page .project {
@@ -387,7 +387,7 @@ footer .social-links a {
     }
 
     .about-kristen {
-        padding: 30px;
+        padding: 40px auto;
     }
 }
 
@@ -424,6 +424,10 @@ footer .social-links a {
         padding: 230px 25px;
     }
 
+    .about-kristen {
+        padding: 30px auto;
+    }
+
     .about-kristen .sub-heading {
         font-size: 18px;
     }
@@ -446,8 +450,8 @@ footer .social-links a {
         padding: 7px;
     }
 
-    .about-kristen {
-        padding: 25px;
+    .projects-page .project p {
+        padding: 0 50px;
     }
 }
 
