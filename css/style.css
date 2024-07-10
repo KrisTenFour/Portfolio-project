@@ -340,10 +340,12 @@ footer .social-links a {
 
     .about-kristen {
         margin-bottom: 0;
+        padding-bottom: 30px;
     }
 
     .about-img {
         max-width: 300px;
+        margin-bottom: 30px;
     }
 
     footer .email-box {
@@ -425,7 +427,7 @@ footer .social-links a {
     }
 
     .about-kristen {
-        padding: 40px 10px;
+        padding: 45px 10px;
     }
 
     .about-kristen .sub-heading {
