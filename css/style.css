@@ -52,7 +52,7 @@ nav .logo {
 
 nav ul {
     margin: 0;
-    padding-top: 13px;
+    padding-top: 11px;
     list-style: none;
 }
 
@@ -95,7 +95,6 @@ nav a,
 }
 
 img,
-.contact-page .content,
 .footer-style {
     border-radius: 4px;
 }
@@ -120,11 +119,6 @@ footer p {
 .profile,
 .container {
     text-align: center;
-}
-
-.projects-page .content,
-.about-page .content {
-    border-radius: 4px 4px 0 0;
 }
 
 nav,
@@ -222,7 +216,7 @@ footer .social-links a {
 }
 
 .about-kristen .text {
-    padding: 0 20px;
+    padding: 0 20px 20px;
 }
 
 .about-kristen li {
@@ -352,10 +346,6 @@ footer .social-links a {
 }
 
 @media (max-width: 791px) {
-    nav ul li {
-        padding: 10px;
-    }
-
     h1 {
         font-size: 58px;
     }
@@ -369,16 +359,11 @@ footer .social-links a {
     }
 
     nav li {
-        padding: 5px;
         font-size: 14px;
     }
 
     .container {
         max-width: 95%;
-    }
-
-    .content {
-        margin: 25px auto 0;
     }
 
     .btn {
@@ -404,10 +389,6 @@ footer .social-links a {
         font-size: 18px;
     }
 
-    nav {
-        margin: 15px;
-    }
-
     nav ul {
         padding-top: 12px;
     }
@@ -425,7 +406,7 @@ footer .social-links a {
     }
 
     .about-kristen {
-        padding: 45px 10px;
+        padding: 50px 10px 40px;
     }
 
     .about-kristen .sub-heading {
