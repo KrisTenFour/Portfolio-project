@@ -221,6 +221,7 @@ footer .social-links a {
 .projects-page .project img:hover {
     filter: grayscale(0);
     box-shadow: 1px 2px 20px #00a59dc6;
+    transform: scale(1.1);
 }
 
 .about-kristen .text {
