@@ -138,6 +138,7 @@ footer .email {
 
 footer .contact-box,
 footer .email-box {
+    border-radius: 0 0 4px 4px;
     background: linear-gradient(rgba(55, 154, 216, 0.571), rgba(81, 127, 220, 0.4)), #7c9fc6b1;
 }
 
@@ -293,7 +294,6 @@ footer .contact-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 0 0 4px 4px;
 }
 
 footer .contact-box p {
@@ -329,7 +329,7 @@ footer .social-links a:hover {
     }
 
     .container {
-        max-width: 85%;
+        max-width: 98%;
     }
 
     .profile h3 {
@@ -373,11 +373,14 @@ footer .social-links a:hover {
 
     footer .email-box {
         margin-top: 35px;
-        border-radius: 0 0 4px 4px;
     }
 }
 
 @media (max-width: 991px) {
+    .container {
+        max-width: 97%;
+    }
+
     .btn-third {
         margin-top: 15px;
     }
@@ -387,7 +390,11 @@ footer .social-links a:hover {
     }
 
     .about-kristen {
-        padding: 35px;
+        margin-bottom: 0;
+    }
+
+    .about-img {
+        max-width: 300px;
     }
 
     footer .email-box {
@@ -412,21 +419,17 @@ footer .social-links a:hover {
         font-size: 22px;
     }
 
-    nav {
-        margin: 9px auto;
-    }
-
     nav li {
         padding: 5px;
         font-size: 14px;
     }
 
     .container {
-        margin: 0 auto;
+        max-width: 95%;
     }
 
     .content {
-        margin: 35px auto 0;
+        margin: 25px auto 0;
     }
 
     .btn {
@@ -434,24 +437,8 @@ footer .social-links a:hover {
         font-size: 13px;
     }
 
-    .homepage .project-description p {
-        margin-top: 0;
-    }
-
-    .homepage-lower-buttons {
-        margin-bottom: 12px;
-    }
-
-    .projects-page .project {
-        margin: 20px auto 0;
-    }
-
     .about-kristen {
         padding: 30px;
-    }
-
-    .contact-page-content {
-        padding: 30px 0;
     }
 
     footer .social-links a {
@@ -474,51 +461,22 @@ footer .social-links a:hover {
 
     nav {
         margin: 15px;
-        padding: 0;
-    }
-
-    nav li {
-        padding: 3px;
     }
 
     .container {
-        max-width: 93%;
+        max-width: 98%;
     }
 
     .content h1 {
         font-size: 46px;
     }
 
-    .homepage {
-        padding: 28px 20px;
-    }
-
-    .homepage .project-description h2 {
-        line-height: 1.25;
-    }
-
-    .homepage .project-description p {
-        margin-top: 0;
-    }
-
-    .homepage .homepage-lower-buttons {
-        margin: 0;
-    }
-
     .about-kristen .sub-heading {
         font-size: 18px;
     }
 
-    .contact-page-content {
-        padding: 30px 0;
-    }
-
     .contact-page-content h2 {
         font-size: 20px;
-    }
-
-    .contact-page-content .email {
-        overflow-wrap: break-word;
     }
 
     footer .email-box h2 {
@@ -531,22 +489,6 @@ footer .social-links a:hover {
 }
 
 @media (max-width: 430px) {
-    nav ul li {
-        padding: 8.5px;
-    }
-
-    .projects-page .project {
-        margin: 18px auto 0;
-    }
-
-    .about-kristen {
-        padding: 20px;
-    }
-
-    .about-kristen .text {
-        padding: 0;
-    }
-
     footer .social-links a {
         padding: 2px 7px;
     }
@@ -555,6 +497,10 @@ footer .social-links a:hover {
 @media (max-width: 417px) {
     nav ul li {
         padding: 7px;
+    }
+
+    .about-kristen {
+        padding: 25px;
     }
 }
 
@@ -566,6 +512,6 @@ footer .social-links a:hover {
 
 @media (max-width: 396px) {
     nav ul li {
-        padding: 5px;
+        padding: 3px;
     }
 }
