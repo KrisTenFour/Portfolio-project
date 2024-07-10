@@ -42,7 +42,6 @@ img {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 5px auto;
 }
 
 nav .logo {
@@ -95,7 +94,6 @@ nav a,
     text-decoration: none;
 }
 
-nav,
 img,
 .contact-page .content,
 .footer-style {
@@ -124,7 +122,6 @@ footer p {
     text-align: center;
 }
 
-.profile,
 .projects-page .content,
 .about-page .content {
     border-radius: 4px 4px 0 0;
