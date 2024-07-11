@@ -118,11 +118,9 @@ footer p {
     text-align: center;
 }
 
-nav,
 .homepage,
 .projects-page .content,
-.about-page .content,
-.contact-page .content {
+.about-page .content {
     background: linear-gradient(rgba(55, 79, 216, 0.409), rgba(55, 154, 216, 0.452)), #7c9fc6b1;
 }
 
@@ -147,10 +145,11 @@ footer .email {
     overflow-wrap: break-word;
 }
 
-.contact-page .content,
+.profile,
+.projects-page .content,
 footer .contact-box,
 footer .email-box {
-    border-radius: 0 0 4px 4px;
+    border-radius: 4px;
     background: linear-gradient(rgba(55, 154, 216, 0.571), rgba(81, 127, 220, 0.4)), #7c9fc6b1;
 }
 
@@ -184,8 +183,8 @@ footer .email-box {
     line-height: 30px;
 }
 
-#project_page_heading {
-    padding-top: 50px;
+#projects-page-heading {
+    padding: 50px;
 }
 
 .projects-page .project {
@@ -350,6 +349,7 @@ footer .social-links a {
         font-size: 58px;
     }
 
+    #projects-page-heading,
     h2 {
         font-size: 38px;
     }
@@ -371,6 +371,10 @@ footer .social-links a {
         font-size: 13px;
     }
 
+    #projects-page-heading {
+        padding: 40px;
+    }
+
     .about-kristen {
         padding: 40px auto;
     }
@@ -381,6 +385,7 @@ footer .social-links a {
         font-size: 56px;
     }
 
+    #projects-page-heading,
     h2 {
         font-size: 34px;
     }
@@ -399,6 +404,10 @@ footer .social-links a {
 
     .profile {
         padding: 230px 25px;
+    }
+
+    #projects-page-heading {
+        padding: 35px;
     }
 
     .about-kristen {
