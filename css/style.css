@@ -142,7 +142,6 @@ footer .email {
 
 img,
 .profile,
-.projects-page .content,
 footer .contact-box,
 footer .email-box {
     background: linear-gradient(rgba(55, 154, 216, 0.571), rgba(81, 127, 220, 0.4)), #7c9fc6b1;
@@ -265,7 +264,7 @@ footer .social-links a {
 
     .homepage .project-description {
         margin: 0;
-        padding: 5px;
+        padding: 40px 20px;
     }
 
     .homepage .project-description p {
