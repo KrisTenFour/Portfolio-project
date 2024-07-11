@@ -115,9 +115,9 @@ footer p {
     font-size: 14px;
 }
 
-
 .homepage,
 .projects-page .content,
+.contact-page .content,
 .about-page .content {
     background: linear-gradient(rgba(55, 79, 216, 0.409), rgba(55, 154, 216, 0.452)), #7c9fc6b1;
 }
@@ -154,6 +154,7 @@ footer .email-box {
 .about-kristen,
 .contact-page .content {
     text-align: left;
+    border-radius: 5px;
 }
 
 .btn {
@@ -211,6 +212,7 @@ footer .email-box {
 }
 
 .contact-page .content {
+    margin-top: 20px;
     padding: 50px;
 }
 
@@ -222,7 +224,6 @@ footer .contact-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 0 0 5px 5px;
 }
 
 footer .contact-box p {
@@ -236,6 +237,7 @@ footer .email {
 footer .email-box {
     margin: 5px 50px;
     padding: 15px 10px;
+    border-radius: 0 0 5px 5px;
 }
 
 footer .social-links {
