@@ -30,10 +30,6 @@ p {
     font-size: 17px;
 }
 
-a {
-    color: blue;
-}
-
 img {
     width: 70%;
     border: 0.1mm solid var(--secondary-color);
@@ -59,10 +55,6 @@ nav ul {
 nav li {
     display: inline;
     padding: 15px;
-}
-
-nav a {
-    color: black;
 }
 
 nav a:hover {
@@ -92,6 +84,11 @@ li {
 nav a,
 .homepage .project-description a {
     text-decoration: none;
+}
+
+a,
+footer p {
+    color: black;
 }
 
 img,
@@ -150,15 +147,11 @@ footer .email {
     overflow-wrap: break-word;
 }
 
+.contact-page .content,
 footer .contact-box,
 footer .email-box {
     border-radius: 0 0 4px 4px;
     background: linear-gradient(rgba(55, 154, 216, 0.571), rgba(81, 127, 220, 0.4)), #7c9fc6b1;
-}
-
-footer p,
-footer .social-links a {
-    color: var(--primary-color);
 }
 
 .btn {
@@ -255,8 +248,9 @@ footer .social-links {
 }
 
 footer .social-links a {
-    padding: 3px 10px;
+    padding: 3px 10px 1px;
     border-radius: 50%;
+    color: var(--primary-color);
 }
 
 @media (max-width: 1390px) {
@@ -297,22 +291,25 @@ footer .social-links a {
         margin: 30px auto;
     }
 
-    .projects-page .project img {
-        filter: none;
-        transition: none;
-    }
-
-    .projects-page .project img:hover {
-        filter: none;
-        box-shadow: none;
-    }
-
     .about-kristen .sub-heading {
         font-size: 19px;
     }
 
     footer .email-box {
         margin-top: 35px;
+    }
+}
+
+@media (max-width: 1152px) {
+    .projects-page .project img {
+        filter: none;
+        transition: none;
+        transform: none;
+    }
+
+    .projects-page .project img:hover {
+        filter: none;
+        box-shadow: none;
     }
 }
 
