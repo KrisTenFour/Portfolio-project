@@ -91,7 +91,7 @@ nav a,
 }
 
 a,
-#projects-page-heading,
+.sub-heading,
 .about-kristen p,
 .contact-page h2,
 footer p {
@@ -172,6 +172,10 @@ footer .email-box {
     margin: 0;
 }
 
+.sub-heading {
+    padding: 42px;
+}
+
 .profile {
     padding: 218px 25px;
     background: linear-gradient(rgba(59, 121, 227, 0.648), rgba(66, 88, 211, 0.582)), #7c9ec661;
@@ -180,10 +184,6 @@ footer .email-box {
 .homepage .project-description p {
     margin: 25px auto 30px;
     line-height: 30px;
-}
-
-#projects-page-heading {
-    padding: 42px;
 }
 
 .projects-page .project {
@@ -309,7 +309,7 @@ footer .social-links a {
         max-width: 97%;
     }
 
-    #projects-page-heading {
+    .sub-heading {
         padding: 38px;
         font-size: 38px;
     }
@@ -363,7 +363,7 @@ footer .social-links a {
         font-size: 13px;
     }
 
-    #projects-page-heading {
+    .sub-heading {
         padding: 40px;
         font-size: 35px;
     }
@@ -394,7 +394,7 @@ footer .social-links a {
         padding: 230px 25px;
     }
 
-    #projects-page-heading {
+    .sub-heading {
         padding: 35px;
         font-size: 33px;
     }
