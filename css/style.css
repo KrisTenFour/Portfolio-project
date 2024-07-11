@@ -345,6 +345,10 @@ footer .social-links a {
 }
 
 @media (max-width: 791px) {
+    nav ul {
+        padding-top: 12px;
+    }
+
     h1 {
         font-size: 58px;
     }
@@ -424,6 +428,14 @@ footer .social-links a {
 @media (max-width: 417px) {
     nav ul li {
         padding: 7px;
+    }
+
+    .profile {
+        padding: 245px 25px;
+    }
+
+    .homepage .project-description p {
+        margin-bottom: 20px;
     }
 
     .projects-page .project p {
