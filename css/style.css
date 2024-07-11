@@ -44,6 +44,7 @@ nav .logo {
     max-width: 50px;
     width: 100%;
     border: none;
+    border-radius: 5px;
 }
 
 nav ul {
@@ -90,7 +91,9 @@ nav a,
 }
 
 a,
+#projects-page-heading,
 .about-kristen p,
+.contact-page h2,
 footer p {
     color: black;
 }
@@ -125,11 +128,6 @@ footer p {
     padding: 50px;
 }
 
-.about-kristen .sub-heading,
-footer .email {
-    font-size: 20px;
-}
-
 footer .social-links a,
 footer .email-box h2 {
     font-size: 24px;
@@ -151,6 +149,11 @@ footer .email-box {
 .projects-page .content,
 .about-page .content {
     border-radius: 5px 5px 0 0;
+}
+
+.about-kristen,
+.contact-page .content {
+    text-align: left;
 }
 
 .btn {
@@ -202,17 +205,13 @@ footer .email-box {
     transform: scale(1.1);
 }
 
-.about-kristen {
-    text-align: left;
-}
-
 .about-img {
     width: 80%;
     object-fit: cover;
 }
 
 .contact-page .content {
-    padding: 20px;
+    padding: 50px;
 }
 
 .footer-style {
@@ -228,6 +227,10 @@ footer .contact-box {
 
 footer .contact-box p {
     margin-bottom: 0;
+}
+
+footer .email {
+    font-size: 20px;
 }
 
 footer .email-box {
@@ -283,10 +286,6 @@ footer .social-links a {
         margin: 30px auto;
     }
 
-    .about-kristen .sub-heading {
-        font-size: 19px;
-    }
-
     footer .email-box {
         margin-top: 35px;
     }
@@ -308,6 +307,11 @@ footer .social-links a {
 @media (max-width: 991px) {
     .container {
         max-width: 97%;
+    }
+
+    #projects-page-heading {
+        padding: 38px;
+        font-size: 38px;
     }
 
     .projects-page .content .btn {
@@ -342,11 +346,6 @@ footer .social-links a {
         font-size: 58px;
     }
 
-    #projects-page-heading,
-    h2 {
-        font-size: 38px;
-    }
-
     h3 {
         font-size: 22px;
     }
@@ -366,6 +365,7 @@ footer .social-links a {
 
     #projects-page-heading {
         padding: 40px;
+        font-size: 35px;
     }
 
     .about-kristen {
@@ -376,11 +376,6 @@ footer .social-links a {
 @media (max-width: 553px) {
     h1 {
         font-size: 56px;
-    }
-
-    #projects-page-heading,
-    h2 {
-        font-size: 34px;
     }
 
     h3 {
@@ -401,14 +396,11 @@ footer .social-links a {
 
     #projects-page-heading {
         padding: 35px;
+        font-size: 33px;
     }
 
     .about-kristen {
         padding: 35px auto;
-    }
-
-    .about-kristen .sub-heading {
-        font-size: 18px;
     }
 
     .contact-page-content h2 {
