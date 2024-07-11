@@ -123,8 +123,7 @@ footer p {
 }
 
 .homepage,
-.homepage .project-description,
-.about-kristen {
+.homepage .project-description {
     padding: 50px;
 }
 
@@ -211,6 +210,10 @@ footer .email-box {
     object-fit: cover;
 }
 
+.about-kristen {
+    padding: 20px 40px;
+}
+
 .contact-page .content {
     margin-top: 20px;
     padding: 50px;
@@ -284,10 +287,6 @@ footer .social-links a {
         margin: 0 auto 40px;
     }
 
-    .projects-page .project {
-        margin: 30px auto;
-    }
-
     footer .email-box {
         margin-top: 35px;
     }
@@ -321,12 +320,7 @@ footer .social-links a {
     }
 
     .projects-page .project {
-        margin: 25px auto 0;
-    }
-
-    .about-kristen {
-        margin-bottom: 0;
-        padding-bottom: 30px;
+        margin: 45px auto 0;
     }
 
     .about-img {
@@ -370,8 +364,8 @@ footer .social-links a {
         font-size: 35px;
     }
 
-    .about-kristen {
-        padding: 40px auto;
+    .projects-page .project {
+        margin: 45px auto 0;
     }
 }
 
@@ -402,7 +396,7 @@ footer .social-links a {
     }
 
     .about-kristen {
-        padding: 35px auto;
+        padding: 15px 35px;
     }
 
     .contact-page-content h2 {
@@ -423,6 +417,11 @@ footer .social-links a {
         padding: 7px;
     }
 
+    .sub-heading {
+        padding: 30px;
+        font-size: 33px;
+    }
+
     .profile {
         padding: 245px 25px;
     }
@@ -431,12 +430,16 @@ footer .social-links a {
         margin-bottom: 20px;
     }
 
+    .projects-page .project {
+        margin-top: 40px;
+    }
+
     .projects-page .project p {
         padding: 0 50px;
     }
 
     .about-kristen {
-        padding: 30px auto;
+        padding: 10px 35px;
     }
 }
 
