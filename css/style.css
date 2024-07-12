@@ -93,6 +93,8 @@ nav a,
 a,
 .sub-heading,
 .about-kristen p,
+.about-page h2,
+.about-page h3,
 .contact-page h2,
 footer p {
     color: black;
@@ -150,6 +152,7 @@ footer .email-box {
     border-radius: 5px 5px 0 0;
 }
 
+.sub-heading,
 .about-kristen,
 .contact-page .content {
     text-align: left;
@@ -202,7 +205,6 @@ footer .email-box {
 .projects-page .project img:hover {
     filter: grayscale(0);
     box-shadow: 1px 2px 20px #00a59dc6;
-    transform: scale(1.1);
 }
 
 .about-img {
@@ -212,6 +214,7 @@ footer .email-box {
 
 .about-kristen {
     padding: 20px 40px;
+    padding-right: 35px;
 }
 
 .contact-page .content {
@@ -296,7 +299,6 @@ footer .social-links a {
     .projects-page .project img {
         filter: none;
         transition: none;
-        transform: none;
     }
 
     .projects-page .project img:hover {
