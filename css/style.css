@@ -365,6 +365,10 @@ footer .social-links a {
         font-size: 35px;
     }
 
+    .homepage .project-description {
+        padding: 30px 20px;
+    }
+
     .projects-page .project {
         margin: 45px auto 0;
     }
