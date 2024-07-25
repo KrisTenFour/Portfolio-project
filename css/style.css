@@ -195,6 +195,7 @@ footer .email-box {
 }
 
 .projects-page .project p {
+    margin: 0;
     font-size: 18px;
 }
 
