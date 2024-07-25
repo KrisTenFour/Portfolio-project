@@ -76,7 +76,8 @@ h2,
 nav a:hover,
 nav a.active,
 .homepage .project-description h2 a,
-.email:hover {
+.email:hover,
+.email-box h2 {
     color: var(--tertiary-color);
 }
 
@@ -85,19 +86,18 @@ p {
     color: var(--secondary-color);
 }
 
-nav a,
-.homepage .project-description a {
-    text-decoration: none;
-}
-
 a,
 .sub-heading,
 .about-kristen p,
-.about-page h2,
+#about-h2,
 .about-page h3,
-.contact-page h2,
 footer p {
     color: black;
+}
+
+nav a,
+.homepage .project-description a {
+    text-decoration: none;
 }
 
 .btn:hover,
@@ -132,6 +132,11 @@ footer p {
 footer .social-links a,
 footer .email-box h2 {
     font-size: 24px;
+}
+
+footer .email-box,
+footer .contact-box {
+    border-radius: 0 0 5px 5px;
 }
 
 .contact-page .content,
@@ -218,7 +223,6 @@ footer .email-box {
 }
 
 .contact-page .content {
-    margin-top: 20px;
     padding: 50px;
 }
 
@@ -243,7 +247,6 @@ footer .email {
 footer .email-box {
     margin: 5px 50px;
     padding: 15px 10px;
-    border-radius: 0 0 5px 5px;
 }
 
 footer .social-links {
