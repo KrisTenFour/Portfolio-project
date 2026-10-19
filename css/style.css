@@ -106,7 +106,7 @@ footer .social-links a:hover {
 
 .btn-second,
 .btn-third {
-    margin-bottom: 20px;
+    margin: 20px auto;
 }
 
 .btn,
@@ -128,11 +128,6 @@ footer p {
 footer .social-links a,
 footer .email-box h2 {
     font-size: 24px;
-}
-
-footer .email-box,
-footer .contact-box {
-    border-radius: 0 0 5px 5px;
 }
 
 .contact-page .content,
@@ -226,7 +221,7 @@ footer .email {
 }
 
 footer .email-box {
-    margin: 5px 50px;
+    margin: 30px 50px;
     padding: 15px 10px;
 }
 
