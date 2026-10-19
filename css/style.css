@@ -75,9 +75,7 @@ h1,
 h2,
 nav a:hover,
 nav a.active,
-.homepage .project-description h2 a,
-.email:hover,
-.email-box h2 {
+.homepage .project-description h2 a {
     color: var(--tertiary-color);
 }
 
@@ -86,12 +84,7 @@ p,
 a,
 footer p {
     color: var(--secondary-color);
-}
-
-nav a,
-.homepage .project-description a {
     text-decoration: none;
-    color: var(--secondary-color);
 }
 
 .btn:hover,
@@ -144,7 +137,7 @@ footer .email {
 }
 
 .btn {
-    color: white;
+    color: black;
     padding: 14px 42px;
     background-color: var(--primary-color);
     border-color: var(--secondary-color);
