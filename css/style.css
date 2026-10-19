@@ -6,7 +6,7 @@
 }
 
 body {
-    background: radial-gradient(1650px at 100.2% 3%, rgb(12, 85, 141) 31.1%, rgba(239, 112, 58, 0.795) 36.4%, rgb(244, 102, 90) 50.9%, rgb(190, 176, 106) 60.7%, rgb(230, 130, 63) 72.5%, rgb(12, 73, 116) 72.6%);
+    background: rgb(31, 31, 31);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -40,7 +40,7 @@ nav {
     justify-content: space-between;
 }
 
-nav .logo {
+nav .muffin {
     max-width: 50px;
     width: 100%;
     border: none;
@@ -88,12 +88,13 @@ p {
 
 a,
 footer p {
-    color: black;
+    color: var(--secondary-color);
 }
 
 nav a,
 .homepage .project-description a {
     text-decoration: none;
+    color: var(--secondary-color);
 }
 
 .btn:hover,
@@ -238,7 +239,7 @@ footer .contact-box p {
 }
 
 footer .email {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 footer .email-box {
