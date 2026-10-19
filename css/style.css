@@ -116,7 +116,13 @@ footer p {
 
 .homepage,
 .homepage .project-description {
+    margin: 25px auto 30px;
     padding: 50px auto 35px;
+    line-height: 30px;
+}
+
+.homepage .row {
+    padding: 50px;
 }
 
 footer .social-links a,
@@ -164,16 +170,11 @@ footer .email {
 }
 
 .sub-heading {
-    padding: 42px;
+    margin: 45px 75px 0;
 }
 
 .profile {
     padding: 218px 25px;
-}
-
-.homepage .project-description p {
-    margin: 25px auto 30px;
-    line-height: 30px;
 }
 
 .projects-page .project {
@@ -200,13 +201,12 @@ footer .email {
     object-fit: cover;
 }
 
-.about-kristen {
-    padding: 20px 40px;
-    padding-right: 35px;
+.project-page .content {
+    padding: 50px;
 }
 
-.contact-page .content {
-    padding: 50px;
+.about-page .content {
+    padding-left: 75px;
 }
 
 .footer-style {
