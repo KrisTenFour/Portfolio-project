@@ -296,11 +296,6 @@ footer .social-links a {
         max-width: 97%;
     }
 
-    .sub-heading {
-        padding: 38px;
-        font-size: 38px;
-    }
-
     .projects-page .content .btn {
         margin: 20px auto;
     }
@@ -309,9 +304,18 @@ footer .social-links a {
         margin: 45px auto 0;
     }
 
-    .about-img {
-        max-width: 300px;
-        margin-bottom: 30px;
+    .about-page .sub-heading {
+        padding: 40px;
+        padding-bottom: 20px;
+    }
+
+    .about-page .content {
+        margin: 15px 30px;
+        padding-left: 85px;
+    }
+
+    .about-page .about-kristen {
+        padding-bottom: 55px;
     }
 
     footer .email-box {
