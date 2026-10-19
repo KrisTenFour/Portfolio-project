@@ -82,10 +82,7 @@ nav a.active,
 }
 
 h3,
-p {
-    color: var(--secondary-color);
-}
-
+p,
 a,
 footer p {
     color: var(--secondary-color);
@@ -130,7 +127,6 @@ footer .email-box h2 {
     font-size: 24px;
 }
 
-.contact-page .content,
 footer .email {
     overflow-wrap: break-word;
 }
@@ -142,8 +138,7 @@ footer .email {
 }
 
 .sub-heading,
-.about-kristen,
-.contact-page .content {
+.about-kristen {
     text-align: left;
     border-radius: 5px;
 }
@@ -208,14 +203,6 @@ footer .email {
     padding: 45px 95px;
 }
 
-footer .contact-box p {
-    margin-bottom: 0;
-}
-
-footer .contact-box h2 {
-    font-size: 36px;
-}
-
 footer .email {
     font-size: 16px;
 }
@@ -223,6 +210,10 @@ footer .email {
 footer .email-box {
     margin: 30px 50px;
     padding: 15px 10px;
+}
+
+footer p {
+    margin-top: 15px;
 }
 
 footer .social-links {
@@ -386,10 +377,6 @@ footer .social-links a {
 
     .about-kristen {
         padding: 15px 35px;
-    }
-
-    .contact-page-content h2 {
-        font-size: 20px;
     }
 
     footer .email-box h2 {
