@@ -115,15 +115,8 @@ footer p {
 }
 
 .homepage,
-.projects-page .content,
-.contact-page .content,
-.about-page .content {
-    background: linear-gradient(rgba(55, 79, 216, 0.409), rgba(55, 154, 216, 0.452)), #7c9fc6b1;
-}
-
-.homepage,
 .homepage .project-description {
-    padding: 50px;
+    padding: 50px auto 35px;
 }
 
 footer .social-links a,
@@ -139,13 +132,6 @@ footer .contact-box {
 .contact-page .content,
 footer .email {
     overflow-wrap: break-word;
-}
-
-img,
-.profile,
-footer .contact-box,
-footer .email-box {
-    background: linear-gradient(rgba(55, 154, 216, 0.571), rgba(81, 127, 220, 0.4)), #7c9fc6b1;
 }
 
 .profile,
@@ -174,7 +160,7 @@ footer .email-box {
 }
 
 #back_top_index {
-    margin: 0;
+    margin-top: 15px;
 }
 
 .sub-heading {
@@ -183,7 +169,6 @@ footer .email-box {
 
 .profile {
     padding: 218px 25px;
-    background: linear-gradient(rgba(59, 121, 227, 0.648), rgba(66, 88, 211, 0.582)), #7c9ec661;
 }
 
 .homepage .project-description p {
@@ -228,14 +213,12 @@ footer .email-box {
     padding: 45px 95px;
 }
 
-footer .contact-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 footer .contact-box p {
     margin-bottom: 0;
+}
+
+footer .contact-box h2 {
+    font-size: 36px;
 }
 
 footer .email {
