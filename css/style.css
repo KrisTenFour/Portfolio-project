@@ -87,13 +87,6 @@ footer p {
     text-decoration: none;
 }
 
-.btn:hover,
-footer .social-links a,
-footer .social-links a:hover {
-    background: var(--secondary-color);
-    border-color: var(--secondary-color);
-}
-
 .btn-second,
 .btn-third {
     margin: 20px auto;
@@ -209,17 +202,8 @@ footer .email-box {
     padding: 15px 10px;
 }
 
-footer p {
-    margin-top: 15px;
-}
-
 footer .social-links {
     margin: 10px auto;
-}
-
-footer .social-links a {
-    padding: 7px 9px;
-    border-radius: 50%;
     color: var(--primary-color);
 }
 
