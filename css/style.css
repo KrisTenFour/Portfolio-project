@@ -286,10 +286,6 @@ footer .social-links {
         padding-left: 85px;
     }
 
-    .about-page .about-kristen {
-        padding-bottom: 55px;
-    }
-
     footer .email-box {
         margin: 0 auto;
     }
@@ -409,6 +405,15 @@ footer .social-links {
 @media (max-width: 405px) {
     nav ul li {
         padding: 6px;
+    }
+
+    .about-page .sub-heading {
+        padding: 10px;
+    }
+
+    .about-page .content {
+        margin-top: 0;
+        padding: 0 10px 10px;
     }
 }
 
