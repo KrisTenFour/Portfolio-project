@@ -18,11 +18,11 @@ h1 {
 }
 
 h2 {
-    font-size: 42px;
+    font-size: 34px;
 }
 
 h3 {
-    font-size: 28px;
+    font-size: 24px;
 }
 
 p {
@@ -104,7 +104,8 @@ footer p {
     line-height: 30px;
 }
 
-.homepage .project-description h2 a:hover {
+.homepage .project-description h2 a:hover,
+.project-page a:hover {
     text-decoration: underline;
 }
 
