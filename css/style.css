@@ -26,7 +26,7 @@ h3 {
 }
 
 p {
-    font-size: 17px;
+    font-size: 18px;
 }
 
 img {
@@ -104,6 +104,10 @@ footer p {
     line-height: 30px;
 }
 
+.homepage .project-description h2 a:hover {
+    text-decoration: underline;
+}
+
 .homepage .row {
     padding: 50px;
 }
@@ -121,6 +125,10 @@ footer .email {
     overflow-wrap: break-word;
 }
 
+footer p a {
+    text-decoration: underline;
+}
+
 .profile,
 .projects-page .content,
 .about-page .content {
@@ -133,16 +141,31 @@ footer .email {
     border-radius: 5px;
 }
 
-.btn {
+.btn-first,
+.btn-second,
+.btn-third {
     color: black;
-    padding: 14px 42px;
     background-color: var(--primary-color);
     border-color: var(--secondary-color);
     box-shadow: var(--box-shadow);
 }
 
+.btn-first,
+.btn-third {
+    padding: 14px 42px;
+}
+
+.btn:hover {
+    background-color: var(--tertiary-color);
+    transition: all 130ms ease-in-out;
+}
+
 .btn-first {
     margin-top: 30px;
+}
+
+.btn-second {
+    padding: 10px 20px;
 }
 
 #back_top_index {
@@ -163,7 +186,6 @@ footer .email {
 
 .projects-page .project p {
     margin: 0;
-    font-size: 18px;
 }
 
 .projects-page .project img {
@@ -216,12 +238,12 @@ footer .social-links {
         font-size: 40px;
     }
 
-    .container {
-        max-width: 98%;
+    h3 {
+        font-size: 22px;
     }
 
-    .profile h3 {
-        font-size: 22px;
+    .container {
+        max-width: 98%;
     }
 
     .homepage .project-description {
@@ -312,7 +334,8 @@ footer .social-links {
         max-width: 95%;
     }
 
-    .btn {
+    .btn-first,
+    .btn-third {
         padding: 12px 30px;
         font-size: 13px;
     }
@@ -320,6 +343,10 @@ footer .social-links {
     .sub-heading {
         padding: 40px;
         font-size: 35px;
+    }
+
+    .homepage .row {
+        padding: 25px;
     }
 
     .homepage .project-description {
@@ -333,11 +360,19 @@ footer .social-links {
 
 @media (max-width: 553px) {
     h1 {
-        font-size: 56px;
+        font-size: 52px;
+    }
+
+    h2 {
+        font-size: 25px;
     }
 
     h3 {
-        font-size: 18px;
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 14px;
     }
 
     .container {
@@ -348,8 +383,16 @@ footer .social-links {
         font-size: 46px;
     }
 
+    .homepage .row {
+        padding: 0;
+    }
+
+    .homepage .project-description {
+        padding-bottom: 0;
+    }
+
     .profile {
-        padding: 230px 25px;
+        padding: 150px 15px;
     }
 
     .about-page .sub-heading {
@@ -369,6 +412,12 @@ footer .social-links {
     footer .email {
         font-size: 15px;
     }
+
+    .btn,
+    footer p {
+        font-size: 12px;
+    }
+
 }
 
 @media (max-width: 417px) {
@@ -379,10 +428,6 @@ footer .social-links {
     .sub-heading {
         padding: 30px;
         font-size: 33px;
-    }
-
-    .profile {
-        padding: 245px 25px;
     }
 
     .homepage .project-description p {
