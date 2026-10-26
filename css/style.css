@@ -5,10 +5,6 @@
     --box-shadow: 1px 2px 10px #4544448c;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     background: rgb(31, 31, 31);
     background-repeat: no-repeat;
