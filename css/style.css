@@ -331,6 +331,10 @@ footer .social-links {
         font-size: 58px;
     }
 
+    h2 {
+        font-size: 32px;
+    }
+
     h3 {
         font-size: 22px;
     }
@@ -365,11 +369,21 @@ footer .social-links {
     .projects-page .project {
         margin: 45px auto 0;
     }
+
+    .about-page .sub-heading {
+        margin: 40px 30px 0;
+        padding: 0;
+        font-size: 35px;
+    }
+
+    .about-page .content {
+        padding: 0;
+    }
 }
 
 @media (max-width: 553px) {
     h1 {
-        font-size: 52px;
+        font-size: 46px;
     }
 
     h2 {
@@ -408,16 +422,6 @@ footer .social-links {
         padding: 150px 15px;
     }
 
-    .about-page .sub-heading {
-        margin: 30px 30px 0;
-        padding: 30px 30px 0;
-        font-size: 35px;
-    }
-
-    .about-page .content {
-        padding: 0 35px;
-    }
-
     footer .email-box h2 {
         font-size: 20px;
     }
@@ -431,52 +435,4 @@ footer .social-links {
         font-size: 12px;
     }
 
-}
-
-@media (max-width: 417px) {
-    nav ul li {
-        padding: 7px;
-    }
-
-    .sub-heading {
-        padding: 30px;
-        font-size: 33px;
-    }
-
-    .homepage .project-description p {
-        margin-bottom: 20px;
-    }
-
-    .projects-page .project {
-        margin-top: 40px;
-    }
-
-    .projects-page .project p {
-        padding: 0 50px;
-    }
-
-    .about-page .content {
-        padding: 10px 35px;
-    }
-}
-
-@media (max-width: 405px) {
-    nav ul li {
-        padding: 6px;
-    }
-
-    .about-page .sub-heading {
-        padding: 10px;
-    }
-
-    .about-page .content {
-        margin-top: 0;
-        padding: 0 10px 10px;
-    }
-}
-
-@media (max-width: 396px) {
-    nav ul li {
-        padding: 3px;
-    }
 }
