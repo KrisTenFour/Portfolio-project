@@ -3,11 +3,10 @@
     --secondary-color: #AFDDE5;
     --tertiary-color: #fed449;
     --box-shadow: 1px 2px 10px #4544448c;
-    scroll-behavior: smooth !important;
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
 }
 
 body {
@@ -241,6 +240,12 @@ footer .email-box {
 footer .social-links {
     margin: 10px auto;
     color: var(--primary-color);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: smooth !important;
+    }
 }
 
 @media (max-width: 1390px) {
