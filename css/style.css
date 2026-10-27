@@ -330,11 +330,20 @@ footer .social-links {
     }
 
     .homepage .project-description {
-        padding-bottom: 0;
+        margin-bottom: 0;
+        padding: 20px 20px 0;
+    }
+
+    .homepage .project-description p {
+        margin-top: 20px;
     }
 
     .profile {
         padding: 200px 15px;
+    }
+
+    .about-kristen p {
+        margin: 10px 30px;
     }
 
     footer .email-box h2 {
@@ -343,6 +352,10 @@ footer .social-links {
 
     footer .email {
         font-size: 15px;
+    }
+
+    .btn-second {
+        margin-top: 10px;
     }
 
     .btn,
