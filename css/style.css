@@ -207,6 +207,10 @@ footer p a {
     transition: all 300ms ease-in-out;
 }
 
+.projects-page .project img:hover {
+    filter: grayscale(0);
+}
+
 .about-img {
     width: 80%;
     object-fit: cover;
