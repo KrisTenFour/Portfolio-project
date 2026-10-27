@@ -11,9 +11,6 @@ html {
 
 body {
     background: rgb(31, 31, 31);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -41,11 +38,8 @@ img {
 .portfolio-img {
     width: 100%;
     height: 320px;
-    /* Forces all image frames to be identical height */
     object-fit: cover;
-    /* Crops the image edges cleanly instead of squishing them */
     object-position: top;
-    /* Keeps the top part of your app screenshots visible */
 }
 
 nav {
@@ -209,11 +203,6 @@ footer p a {
 
 .projects-page .project img:hover {
     filter: grayscale(0);
-}
-
-.about-img {
-    width: 80%;
-    object-fit: cover;
 }
 
 .project-page .content {
